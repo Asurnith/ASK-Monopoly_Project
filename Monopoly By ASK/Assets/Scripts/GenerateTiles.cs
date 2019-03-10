@@ -1,9 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Audio.Google;
 
-public class GenerateTile : MonoBehaviour
+public class GenerateTiles : MonoBehaviour
 {
+
+    public GameObject[] basicTiles;
+    public GameObject[] cornerTiles;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +20,6 @@ public class GenerateTile : MonoBehaviour
     {
         
     }
+
+   
 }
