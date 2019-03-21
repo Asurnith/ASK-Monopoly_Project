@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Asurnith\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Asurnith\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Monopoly By ASK.1748342701.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Asurnith\Unity\ASK-Monopoly_Project\Monopoly By ASK" t="IncludeRecursive">
+    <e p="C:\Users\avischer0793\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\avischer0793\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Monopoly By ASK.-1815042791.00" t="ExcludeRecursive" />
+    <e p="C:\Users\avischer0793\Unity\ASK-Monopoly_Project\Monopoly By ASK" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="CornerTile.cs" t="Include" />
-          <e p="GenerateTiles.cs" t="Include" />
-          <e p="Tile.cs" t="Include" />
+          <e p="RBEnable.cs" t="Include" />
+          <e p="Tiles" t="Include">
+            <e p="GenerateTiles.cs" t="Include" />
+            <e p="Tile.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

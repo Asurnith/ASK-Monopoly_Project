@@ -6,13 +6,30 @@ using UnityEngine.Experimental.Audio.Google;
 public class GenerateTiles : MonoBehaviour
 {
 
-    public GameObject[] basicTiles;
-    public GameObject[] cornerTiles;
+    public enum TileType
+    {
+        property,
+        communityChest,
+        chance,
+        tax,
+        freeParking,
+        go,
+        goToJail,
+        jail
+    }
+
+    
+    public Tile[] tiles;
+   
+    
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        foreach (var tile in tiles)
+        {
+            tile.tileIndex = tiles.tileInxe
+        }
     }
 
     // Update is called once per frame
