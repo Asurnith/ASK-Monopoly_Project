@@ -8,7 +8,7 @@ public class Tile : MonoBehaviour
 {
 
     [SerializeField]private GenerateTiles.TileType tileType;
-    public int tileIndex { get; set; }
+    public int TileIndex { get; set; }
         
         
     public Vector3 tileLocation;
@@ -19,7 +19,6 @@ public class Tile : MonoBehaviour
     {
         tileLocation = transform.position;
         tileName = name;
-        tie
        
     }
 
