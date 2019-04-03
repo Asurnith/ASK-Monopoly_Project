@@ -6,6 +6,14 @@ TagManager:
   tags:
   - basicTile
   - cornerTile
+  - Property
+  - CommunityChest
+  - Chance
+  - Tax
+  - FreeParking
+  - GO
+  - GoToJail
+  - Jail
   layers:
   - Default
   - TransparentFX

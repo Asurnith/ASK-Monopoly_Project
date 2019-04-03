@@ -26,10 +26,7 @@ public class GenerateTiles : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        foreach (var tile in tiles)
-        {
-            tile.tileIndex = tiles.tileInxe
-        }
+       
     }
 
     // Update is called once per frame
