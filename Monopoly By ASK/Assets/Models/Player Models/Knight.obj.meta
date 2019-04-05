@@ -1,18 +1,22 @@
 fileFormatVersion: 2
-guid: 3132b85d08b799349ad584508ccbee46
+guid: 9afc804b76dcc1746828f4d8fbda1cb7
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: 16055_Wizard_Staff_V2
+    100000: 18489_Knight_V1_
     100002: //RootNode
-    400000: 16055_Wizard_Staff_V2
+    400000: 18489_Knight_V1_
     400002: //RootNode
-    2100000: 16055_Wizard_Staff_V2Mat
-    2300000: 16055_Wizard_Staff_V2
-    3300000: 16055_Wizard_Staff_V2
-    4300000: 16055_Wizard_Staff_V2
-    2186277476908879412: ImportLogs
-  externalObjects: {}
+    2100000: 18489_Knight_V1_Mat
+    2300000: 18489_Knight_V1_
+    3300000: 18489_Knight_V1_
+    4300000: 18489_Knight_V1_
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 18489_Knight_V1_Mat
+    second: {fileID: 2100000, guid: 0830824af2d66a2438f58866dc2ddc65, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

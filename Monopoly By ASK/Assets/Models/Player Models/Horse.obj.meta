@@ -1,17 +1,22 @@
 fileFormatVersion: 2
-guid: 9afc804b76dcc1746828f4d8fbda1cb7
+guid: f099dbc7012e7aa408069273273a0736
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: 18489_Knight_V1_
-    100002: //RootNode
-    400000: 18489_Knight_V1_
-    400002: //RootNode
-    2100000: 18489_Knight_V1_Mat
-    2300000: 18489_Knight_V1_
-    3300000: 18489_Knight_V1_
-    4300000: 18489_Knight_V1_
-  externalObjects: {}
+    100000: //RootNode
+    100002: 16267_American_Paint_Horse_Nuetral_V1
+    400000: //RootNode
+    400002: 16267_American_Paint_Horse_Nuetral_V1
+    2100000: 16267_American_Paint_Horse_Nuetral_V1Mat
+    2300000: 16267_American_Paint_Horse_Nuetral_V1
+    3300000: 16267_American_Paint_Horse_Nuetral_V1
+    4300000: 16267_American_Paint_Horse_Nuetral_V1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 16267_American_Paint_Horse_Nuetral_V1Mat
+    second: {fileID: 2100000, guid: 0830824af2d66a2438f58866dc2ddc65, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
