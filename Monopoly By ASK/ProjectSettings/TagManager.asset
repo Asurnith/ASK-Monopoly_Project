@@ -4,16 +4,16 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - basicTile
-  - cornerTile
   - Property
   - CommunityChest
   - Chance
   - Tax
   - FreeParking
-  - GO
   - GoToJail
   - Jail
+  - basicTile
+  - cornerTile
+  - Go
   layers:
   - Default
   - TransparentFX
