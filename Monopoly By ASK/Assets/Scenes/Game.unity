@@ -368,7 +368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 60741310}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: streetRepairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -642,7 +642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 114250833}
   m_Layer: 0
-  m_Name: GameObject (6)
+  m_Name: Go
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1073,7 +1073,7 @@ GameObject:
   m_Component:
   - component: {fileID: 209306391}
   m_Layer: 0
-  m_Name: GameObject (2)
+  m_Name: schoolFee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1138,7 +1138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 229683728}
   m_Layer: 0
-  m_Name: GameObject (4)
+  m_Name: lifeInsuranceMature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1511,7 +1511,7 @@ GameObject:
   m_Component:
   - component: {fileID: 414862740}
   m_Layer: 0
-  m_Name: GameObject (8)
+  m_Name: docotorsFee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1976,7 +1976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 559265948}
   m_Layer: 0
-  m_Name: GameObject (8)
+  m_Name: speeding
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2466,7 +2466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 669734154}
   m_Layer: 0
-  m_Name: GameObject (5)
+  m_Name: wonBeautyContest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2626,7 +2626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 751804456}
   m_Layer: 0
-  m_Name: GameObject (10)
+  m_Name: st.CharlesPlace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2656,7 +2656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 759063268}
   m_Layer: 0
-  m_Name: GameObject (7)
+  m_Name: boardwalk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2721,7 +2721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 781680695}
   m_Layer: 0
-  m_Name: GameObject (11)
+  m_Name: stocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2751,7 +2751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 793944237}
   m_Layer: 0
-  m_Name: GameObject (7)
+  m_Name: incomeTaxRefund
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2874,7 +2874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 832225483}
   m_Layer: 0
-  m_Name: GameObject (9)
+  m_Name: illinios
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3629,7 +3629,7 @@ GameObject:
   m_Component:
   - component: {fileID: 967024245}
   m_Layer: 0
-  m_Name: GameObject (5)
+  m_Name: electedChairMan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3823,7 +3823,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1035066312}
   m_Layer: 0
-  m_Name: GameObject (6)
+  m_Name: birthdayGift
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3853,7 +3853,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1043349192}
   m_Layer: 0
-  m_Name: GameObject (3)
+  m_Name: nearestrailRoad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4338,7 +4338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1277931331}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: consultancyFee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4686,7 +4686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1341847674}
   m_Layer: 0
-  m_Name: GameObject (12)
+  m_Name: nearestUtility
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5150,7 +5150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1445420360}
   m_Layer: 0
-  m_Name: GameObject (12)
+  m_Name: Go
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5566,7 +5566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1515777345}
   m_Layer: 0
-  m_Name: GameObject (4)
+  m_Name: nearestRailRoad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5695,7 +5695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1538099268}
   m_Layer: 0
-  m_Name: GameObject (3)
+  m_Name: getOutOfJail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6133,7 +6133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1655249005}
   m_Layer: 0
-  m_Name: GameObject (15)
+  m_Name: buildingLoanMature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6262,7 +6262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1708867678}
   m_Layer: 0
-  m_Name: GameObject (11)
+  m_Name: backThreeSpaces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6324,7 +6324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1737697634}
   m_Layer: 0
-  m_Name: GameObject (14)
+  m_Name: payedByBank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7169,7 +7169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1900087956}
   m_Layer: 0
-  m_Name: GameObject (13)
+  m_Name: goToJail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7552,7 +7552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2032705547}
   m_Layer: 0
-  m_Name: GameObject (9)
+  m_Name: goToJail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7655,7 +7655,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2131169115}
   m_Layer: 0
-  m_Name: GameObject (10)
+  m_Name: hospitalFee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
