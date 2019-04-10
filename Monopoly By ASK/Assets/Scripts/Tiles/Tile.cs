@@ -1,30 +1,29 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 
-public class Tile : MonoBehaviour
+public abstract class Tile : MonoBehaviour
 {
 
-    [SerializeField]private GenerateTiles.TileType tileType;
-    public int TileIndex { get; set; }
+    [SerializeField]private GenerateTiles.TileType tileType;        
         
-        
-    public Vector3 tileLocation;
+    public int tileIndex;
     public String tileName;
+    public Vector3 tileLocation;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        tileLocation = transform.position;
-        tileName = name;
-       
-    }
+    public abstract void TileEffect(GameObject player);
 
-    // Update is called once per frame
-    void Update()
+    public void GenerateBasicTile(Tile tile)
     {
+        this.tileName = this.name;
+        this.tileLocation = this.transform.position;
+        this.tileType = (GenerateTiles.TileType) Enum.Parse(typeof(GenerateTiles.TileType), tag);
 
     }
+    
+    
+
 }

@@ -118,7 +118,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1839243948}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6973814
+--- !u!114 &6973815
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,12 +127,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6973813}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: adba4c081e72b034ba36afbcded84868, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileType: 0
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
 --- !u!4 &6973817 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -206,12 +207,12 @@ PrefabInstance:
     - target: {fileID: 2553669523630655510, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
         type: 3}
       propertyPath: m_Name
-      value: GO
+      value: Go
       objectReference: {fileID: 0}
     - target: {fileID: 2553669523630655510, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
         type: 3}
       propertyPath: m_TagString
-      value: GO
+      value: Go
       objectReference: {fileID: 0}
     - target: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
         type: 3}
@@ -393,12 +394,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 83077494}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d12425ca253cd3428413dd33f205d2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 6
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileType: 0
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
 --- !u!4 &83077499 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
@@ -420,12 +422,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 106116131}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &106116135 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -443,6 +452,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Short Bus
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -709,12 +723,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 149529640}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &149529644 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -816,7 +837,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -831,6 +852,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: St. Charles Place
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -910,7 +936,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -929,12 +955,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 213800548}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
+  tileIndex: 0
+  tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  tileName: Baltic Avenue
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &213800552 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -952,6 +985,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chance 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Chance
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -1050,12 +1088,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 243332038}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &243332042 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -1143,6 +1188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Illinois Avenue
       objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
+      objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1221,7 +1271,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -1246,12 +1296,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 383535743}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &383535747 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -1269,6 +1326,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Vermont Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -1348,7 +1410,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -1463,6 +1525,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Atlantic Avenue
       objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
+      objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1541,7 +1608,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -1560,12 +1627,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 533510904}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &533510908 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -1644,12 +1718,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 563448799}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
+  tileIndex: 0
+  tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  tileName: Oriental Avenue
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &563448803 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -1671,12 +1752,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 573201335}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &573201339 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -1698,12 +1786,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 610403035}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: db90a34e45d61404ca61abe08ccd9988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 4
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileType: 0
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
 --- !u!4 &610403040 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
@@ -1725,12 +1814,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 614439769}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &614439773 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -1748,6 +1844,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pacific Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -1827,7 +1928,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -1842,6 +1943,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Virginia Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -1921,7 +2027,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -1936,6 +2042,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: States Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -2015,7 +2126,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -2034,12 +2145,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 687846041}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 65435787afb8bf94fa07f282ce606005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
 --- !u!4 &687846045 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -2057,6 +2172,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Luxury Tax
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tax
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -2155,12 +2275,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 770788620}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &770788624 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -2272,6 +2399,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Go To Jail For Free Lmao
       objectReference: {fileID: 0}
+    - target: {fileID: 2553669523630655510, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
+        type: 3}
+      propertyPath: m_TagString
+      value: GoToJail
+      objectReference: {fileID: 0}
     - target: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2367,6 +2499,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water Works
       objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
+      objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2455,7 +2592,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 39925264}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &872310326
+--- !u!114 &872310327
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2464,12 +2601,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 872310325}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c9d21ed0b6e8514ea69c5be6620ce37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 5
+  tileIndex: 0
+  tileName: Go
   tileLocation: {x: 0, y: 0, z: 0}
-  tileName: GO
 --- !u!4 &872310330 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
@@ -2482,7 +2620,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 128435373}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &875993495
+--- !u!114 &875993496
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2491,12 +2629,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 875993494}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: adba4c081e72b034ba36afbcded84868, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
+  tileType: 0
+  tileIndex: 0
+  tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  tileName: Community Chest 1
 --- !u!4 &875993498 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -2518,12 +2657,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 879672950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &879672954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -2624,6 +2770,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pennsylvania Railroad
       objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
+      objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2721,12 +2872,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 943132463}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: b802d8d7c48ce894a96eac15f5291819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  twoUtilities: 0
 --- !u!1001 &964934238
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2923,12 +3079,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1002317332}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &1002317336 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -2946,6 +3109,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Market Gardens
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -3025,7 +3193,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -3044,12 +3212,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1048154080}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 646f15c0bf6cb124aa2fb4f9b5b09b2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 3
+  tileType: 0
+  tileIndex: 0
+  tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  tileName: Income Tax
 --- !u!4 &1048154084 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -3071,12 +3240,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1087404678}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &1087404682 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -3098,12 +3274,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1118586906}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 65435787afb8bf94fa07f282ce606005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
 --- !u!4 &1118586910 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -3116,7 +3296,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 230752886}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1121406339
+--- !u!114 &1121406340
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3125,12 +3305,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1121406338}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: bce98e07e9c9fa643b628afe0df94ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 2
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileType: 0
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
 --- !u!4 &1121406342 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -3148,6 +3329,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Free Parking
+      objectReference: {fileID: 0}
+    - target: {fileID: 2553669523630655510, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
+        type: 3}
+      propertyPath: m_TagString
+      value: FreeParking
       objectReference: {fileID: 0}
     - target: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
         type: 3}
@@ -3244,6 +3430,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park Place
       objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
+      objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3322,7 +3513,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7428727053238472121, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -3342,6 +3533,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: St. James Place
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -3421,7 +3617,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -3440,12 +3636,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1283941989}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &1283941993 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -3467,12 +3670,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1289507699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 6899625e2abf7af47ba5ef0e3c013c72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 7
+  tileType: 0
+  tileIndex: 0
+  tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  tileName: Jail
 --- !u!4 &1289507704 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
@@ -3494,12 +3698,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1292822893}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &1292822897 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -3517,6 +3728,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: New York Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -3596,7 +3812,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -3703,6 +3919,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ventor Avenue
       objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
+      objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3781,7 +4002,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -3866,6 +4087,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tennessee Avenue
       objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
+      objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3944,7 +4170,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7428727053238472121, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -3964,6 +4190,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Community Chest 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: CommunityChest
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -4062,12 +4293,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1413267614}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
+  tileIndex: 0
+  tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  tileName: Vermont Avenue
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &1413267618 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -4080,7 +4318,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1812597958}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1433633062
+--- !u!114 &1433633063
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4089,12 +4327,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1433633061}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: bce98e07e9c9fa643b628afe0df94ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 2
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileType: 0
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
 --- !u!4 &1433633065 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -4205,12 +4444,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1471946675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &1471946679 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -4228,6 +4474,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Kentucky Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -4307,7 +4558,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -4317,7 +4568,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1815554301}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1481269443
+--- !u!114 &1481269444
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4326,12 +4577,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1481269442}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: bce98e07e9c9fa643b628afe0df94ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 2
+  tileType: 0
+  tileIndex: 0
+  tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  tileName: Chance 1
 --- !u!4 &1481269446 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -4348,6 +4600,11 @@ PrefabInstance:
     - target: {fileID: 2553669523630655510, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
         type: 3}
       propertyPath: m_Name
+      value: Jail
+      objectReference: {fileID: 0}
+    - target: {fileID: 2553669523630655510, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
+        type: 3}
+      propertyPath: m_TagString
       value: Jail
       objectReference: {fileID: 0}
     - target: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
@@ -4448,12 +4705,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1502927456}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &1502927460 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -4471,6 +4735,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Connecticut Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -4550,7 +4819,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -4651,12 +4920,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1556589600}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 65435787afb8bf94fa07f282ce606005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
+  tileIndex: 0
+  tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  tileName: Reading Railroad
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
 --- !u!4 &1556589604 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -4674,6 +4947,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Electric Company
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -4772,12 +5050,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1591941018}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 646f15c0bf6cb124aa2fb4f9b5b09b2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 3
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileType: 0
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
 --- !u!4 &1591941022 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -4879,7 +5158,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -5047,7 +5326,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -5066,12 +5345,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1727269758}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: b802d8d7c48ce894a96eac15f5291819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  twoUtilities: 0
 --- !u!4 &1727269762 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5093,12 +5377,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1743747947}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &1743747951 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5111,7 +5402,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1407263101}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1774723905
+--- !u!114 &1774723906
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5120,12 +5411,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1774723904}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: adba4c081e72b034ba36afbcded84868, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileType: 0
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
 --- !u!4 &1774723908 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5143,6 +5435,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Board Walk
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -5222,7 +5519,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7428727053238472121, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -5242,6 +5539,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chance 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Chance
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -5337,6 +5639,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pennsylvania Avenue
       objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
+      objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5415,7 +5722,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -5430,6 +5737,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chance 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Chance
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -5528,12 +5840,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1829891280}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
+  tileIndex: 0
+  tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  tileName: Mediterranian Avenue
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &1829891284 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5551,6 +5870,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Community Chest 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: CommunityChest
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -5646,6 +5970,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: North Carolina Avenue
       objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
+      objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5724,7 +6053,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -5825,12 +6154,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1895787121}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &1895787125 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5852,12 +6188,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1902072136}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1100ef985dc677645be8ea25d3e0f151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
+  tileIndex: 0
+  tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  tileName: Connecticut Avenue
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
+  houseCount: 0
+  hasHotel: 0
+  rentValues: 00000000000000000000000000000000000000000000000000000000
 --- !u!4 &1902072140 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5879,12 +6222,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1906529852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd134667964b6c4a9f38228e726196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 65435787afb8bf94fa07f282ce606005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileIndex: 0
   tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  tileMortgage: 0
+  tilePrice: 0
+  tileRent: 0
 --- !u!4 &1906529856 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5902,6 +6249,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Indiana Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -5981,7 +6333,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -6085,6 +6437,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: B. & O. Railroad
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Property
       objectReference: {fileID: 0}
     - target: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -6271,14 +6628,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiles:
-  - {fileID: 872310326}
+  - {fileID: 872310327}
   - {fileID: 1829891281}
-  - {fileID: 875993495}
+  - {fileID: 875993496}
   - {fileID: 213800549}
   - {fileID: 1048154081}
   - {fileID: 1556589601}
   - {fileID: 563448800}
-  - {fileID: 1481269443}
+  - {fileID: 1481269444}
   - {fileID: 1413267615}
   - {fileID: 1902072137}
   - {fileID: 1289507700}
@@ -6288,12 +6645,12 @@ MonoBehaviour:
   - {fileID: 1895787122}
   - {fileID: 1906529853}
   - {fileID: 770788621}
-  - {fileID: 6973814}
+  - {fileID: 6973815}
   - {fileID: 1471946676}
   - {fileID: 1743747948}
   - {fileID: 610403036}
   - {fileID: 383535744}
-  - {fileID: 1433633062}
+  - {fileID: 1433633063}
   - {fileID: 614439770}
   - {fileID: 533510905}
   - {fileID: 1118586907}
@@ -6304,10 +6661,10 @@ MonoBehaviour:
   - {fileID: 83077495}
   - {fileID: 1283941990}
   - {fileID: 243332039}
-  - {fileID: 1774723905}
+  - {fileID: 1774723906}
   - {fileID: 573201336}
   - {fileID: 687846042}
-  - {fileID: 1121406339}
+  - {fileID: 1121406340}
   - {fileID: 149529641}
   - {fileID: 1591941019}
   - {fileID: 1002317333}
