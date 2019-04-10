@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <e p="C:\Users\avischer0793\.Rider2018.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\avischer0793\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Monopoly By ASK.-1815042791.00" t="ExcludeRecursive" />
     <e p="C:\Users\avischer0793\Unity\ASK-Monopoly_Project\Monopoly By ASK" t="IncludeRecursive">
@@ -33,6 +34,8 @@
             <e p="GenerateTiles.cs" t="Include" />
             <e p="Tile.cs" t="Include" />
 =======
+=======
+>>>>>>> Stashed changes
     <e p="C:\Users\sfranco1040\.Rider2018.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\sfranco1040\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Monopoly By ASK.-1918500572.00" t="ExcludeRecursive" />
     <e p="C:\Users\sfranco1040\Unity\ASK-Monopoly_Project\Monopoly By ASK" t="IncludeRecursive">
@@ -46,10 +49,8 @@
           </e>
           <e p="RBEnable.cs" t="Include" />
           <e p="Tiles" t="Include">
-            <e p="CornerTile.cs" t="Include" />
-            <e p="GameTile.cs" t="Include" />
             <e p="GenerateTiles.cs" t="Include" />
->>>>>>> Stashed changes
+            <e p="Tile.cs" t="Include" />
           </e>
         </e>
       </e>
