@@ -4,15 +4,5 @@ using UnityEngine;
 
 public class CCBehavior : CardBehavior
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   public List<GameObject> communityChest = new List<GameObject>();
 }

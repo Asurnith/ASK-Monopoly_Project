@@ -12,6 +12,10 @@ public class UtilityBehavior: PropertyBehavior
         
         
     }
-    
 
+
+    protected override int CaluclateRent()
+    {
+        throw new NotImplementedException();
+    }
 }
