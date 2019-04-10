@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    <e p="C:\Users\avischer0793\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\avischer0793\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Monopoly By ASK.-1815042791.00" t="ExcludeRecursive" />
-    <e p="C:\Users\avischer0793\Unity\ASK-Monopoly_Project\Monopoly By ASK" t="IncludeRecursive">
-      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets" t="Include">
-        <e p="Scripts" t="Include">
-          <e p="RBEnable.cs" t="Include" />
-          <e p="Tiles" t="Include">
-            <e p="Behaviors" t="Include">
-              <e p="DeckBehaviors" t="Include">
-                <e p="CardBehavior.cs" t="Include" />
-                <e p="CCBehavior.cs" t="Include" />
-                <e p="ChanceBehavior.cs" t="Include" />
-              </e>
-              <e p="PropertyBehaviors" t="Include">
-                <e p="PropertyBehavior.cs" t="Include" />
-                <e p="RailroadBehavior.cs" t="Include" />
-                <e p="RealestateBehavior.cs" t="Include" />
-                <e p="UtilityBehavior.cs" t="Include" />
-              </e>
-              <e p="SpecialBehaviors" t="Include">
-                <e p="FreeParkingBehavior.cs" t="Include" />
-                <e p="GoBehavior.cs" t="Include" />
-                <e p="GoToJailBehavior.cs" t="Include" />
-                <e p="JailBehavior.cs" t="Include" />
-                <e p="TaxBehavior.cs" t="Include" />
-              </e>
-            </e>
-            <e p="GenerateTiles.cs" t="Include" />
-            <e p="Tile.cs" t="Include" />
-=======
-=======
->>>>>>> Stashed changes
     <e p="C:\Users\sfranco1040\.Rider2018.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\sfranco1040\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Monopoly By ASK.-1918500572.00" t="ExcludeRecursive" />
     <e p="C:\Users\sfranco1040\Unity\ASK-Monopoly_Project\Monopoly By ASK" t="IncludeRecursive">
@@ -49,6 +14,26 @@
           </e>
           <e p="RBEnable.cs" t="Include" />
           <e p="Tiles" t="Include">
+            <e p="Behaviors" t="Include">
+              <e p="DeckBehaviors" t="Include">
+                <e p="CardBehavior.cs" t="Include" />
+                <e p="CCBehavior.cs" t="Include" />
+                <e p="ChanceBehavior.cs" t="Include" />
+              </e>
+              <e p="PropertyBehaviors" t="Include">
+                <e p="PropertyBehavior.cs" t="Include" />
+                <e p="RailroadBehavior.cs" t="Include" />
+                <e p="RealEstateBehavior.cs" t="Include" />
+                <e p="UtilityBehavior.cs" t="Include" />
+              </e>
+              <e p="SpecialBehaviors" t="Include">
+                <e p="FreeParkingBehavior.cs" t="Include" />
+                <e p="GoBehavior.cs" t="Include" />
+                <e p="GoToJailBehavior.cs" t="Include" />
+                <e p="JailBehavior.cs" t="Include" />
+                <e p="TaxBehavior.cs" t="Include" />
+              </e>
+            </e>
             <e p="GenerateTiles.cs" t="Include" />
             <e p="Tile.cs" t="Include" />
           </e>

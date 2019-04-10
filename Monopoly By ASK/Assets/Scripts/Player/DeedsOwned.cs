@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class DeedsOwned : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public List<Tile> propertiesOwned = new List<Tile>();
+
+    public void BuyProperties(Tile property)
     {
-        
+        GetComponent<AmountOfMoney>().ChangeBalence(-property.GetComponent<PropertyBehavior>().tilePrice);
+        propertiesOwned.Add(property);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
