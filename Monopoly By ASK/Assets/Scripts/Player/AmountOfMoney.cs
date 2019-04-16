@@ -65,7 +65,7 @@ public class AmountOfMoney : MonoBehaviour
         totalMoney = value;
     }
 
-    private void Pay(int value, GameObject player)
+    public void Pay(int value, GameObject player)
     {
         ChangeBalence(-value);
         player.GetComponent<AmountOfMoney>().ChangeBalence(value);
