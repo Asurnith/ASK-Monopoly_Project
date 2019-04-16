@@ -7,6 +7,7 @@ public abstract class PropertyBehavior: Tile
 {
     
     public int tileMortgage;
+    public int tileUnmortgage;
     public int tilePrice;
     public GameObject owner; 
     public int tileRent => CaluclateRent();
