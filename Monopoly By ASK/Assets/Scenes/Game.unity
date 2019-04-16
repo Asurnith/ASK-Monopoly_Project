@@ -122,7 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4934490}
   m_Layer: 0
-  m_Name: GameObject (13)
+  m_Name: inherit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
   tileIndex: 0
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  communityChest: []
+  CommunityChest: []
 --- !u!4 &6973817 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -338,7 +338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 42150453}
   m_Layer: 0
-  m_Name: GameObject (14)
+  m_Name: operaOpening
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1639,6 +1639,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 447726503}
+  - component: {fileID: 447726504}
   m_Layer: 0
   m_Name: 'Community Chest '
   m_TagString: Untagged
@@ -1676,6 +1677,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &447726504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447726502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adba4c081e72b034ba36afbcded84868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  tileIndex: 0
+  tileName: 
+  tileLocation: {x: 0, y: 0, z: 0}
+  CommunityChest: []
 --- !u!1001 &458357623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3143,7 +3161,7 @@ MonoBehaviour:
   tileIndex: 0
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  communityChest: []
+  CommunityChest: []
 --- !u!4 &875993498 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -3659,7 +3677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 991791592}
   m_Layer: 0
-  m_Name: GameObject (15)
+  m_Name: bankError
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4019,6 +4037,7 @@ MonoBehaviour:
   tileIndex: 0
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
+  ChanceCards: []
 --- !u!4 &1121406342 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5134,6 +5153,7 @@ MonoBehaviour:
   tileIndex: 0
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
+  ChanceCards: []
 --- !u!4 &1433633065 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5415,6 +5435,7 @@ MonoBehaviour:
   tileIndex: 0
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
+  ChanceCards: []
 --- !u!4 &1481269446 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -6401,7 +6422,7 @@ MonoBehaviour:
   tileIndex: 0
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  communityChest: []
+  CommunityChest: []
 --- !u!4 &1774723908 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,

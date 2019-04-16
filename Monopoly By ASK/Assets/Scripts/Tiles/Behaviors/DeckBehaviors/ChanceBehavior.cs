@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class ChanceBehavior : CardBehavior
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private List<GameObject> ChanceCards;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        Queue<GameObject> ChanceDeck  = new Queue<GameObject>(ChanceCards); 
     }
+    
 }

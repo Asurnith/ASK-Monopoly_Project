@@ -5,16 +5,19 @@ using UnityEngine;
 public class CardBehavior : Tile
 {
     private bool _isChance;
-    
+
     public override void TileEffect(GameObject player)
     {
         if (_isChance)
         {
-            //drawFromChance
+            //dequeue from Chance Queue
         }
-        else{
-            //drawFromCC
+        else
+        {
+            //dequeue from CC Queue 
         }
-        
     }
+    
+    
 }
+
