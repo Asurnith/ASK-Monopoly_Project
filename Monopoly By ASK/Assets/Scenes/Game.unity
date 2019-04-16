@@ -521,9 +521,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -853,9 +856,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -960,7 +966,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -1059,7 +1065,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -1115,13 +1121,16 @@ MonoBehaviour:
   tileIndex: 0
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tilePrice: 0
+  tileMortgage: 30
+  tileUnmortgage: 33
+  tilePrice: 60
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 50
+  hotelCost: 50
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 0400000008000000140000003c000000b400000040010000c2010000
 --- !u!4 &213800552 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -1280,9 +1289,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -1456,7 +1468,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -1489,9 +1501,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -1626,7 +1641,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -1870,7 +1885,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -1897,9 +1912,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -2019,9 +2037,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -2054,9 +2075,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -2147,9 +2171,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -2254,7 +2281,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -2353,7 +2380,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -2452,7 +2479,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -2509,6 +2536,7 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
 --- !u!4 &687846045 stripped
@@ -2699,9 +2727,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -3173,9 +3204,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -3389,6 +3423,7 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   twoUtilities: 0
@@ -3702,9 +3737,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -3809,7 +3847,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -3924,9 +3962,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -3989,6 +4030,7 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
 --- !u!4 &1118586910 stripped
@@ -4220,7 +4262,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7428727053238472121, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -4324,7 +4366,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -4381,9 +4423,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -4444,9 +4489,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -4551,7 +4599,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -4801,7 +4849,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -4969,7 +5017,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7428727053238472121, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -5100,9 +5148,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -5281,10 +5332,13 @@ MonoBehaviour:
   tileIndex: 0
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tilePrice: 0
+  tileMortgage: 90
+  tileUnmortgage: 99
+  tilePrice: 180
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 100
+  hotelCost: 100
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -5389,7 +5443,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -5544,9 +5598,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -5681,7 +5738,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -5820,6 +5877,7 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
 --- !u!4 &1556589604 stripped
@@ -6050,7 +6108,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -6248,7 +6306,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -6305,6 +6363,7 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   twoUtilities: 0
@@ -6367,9 +6426,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -6503,7 +6565,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7428727053238472121, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -6706,7 +6768,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -6832,9 +6894,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -7038,7 +7103,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
@@ -7147,9 +7212,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -7212,9 +7280,12 @@ MonoBehaviour:
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
+  tileUnmortgage: 0
   tilePrice: 0
   owner: {fileID: 0}
   monopoly: 0
+  houseCost: 0
+  hotelCost: 0
   houseCount: 0
   hasHotel: 0
   rentValues: 00000000000000000000000000000000000000000000000000000000
@@ -7246,8 +7317,9 @@ MonoBehaviour:
   tileIndex: 0
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tilePrice: 0
+  tileMortgage: 100
+  tileUnmortgage: 110
+  tilePrice: 200
   owner: {fileID: 0}
 --- !u!4 &1906529856 stripped
 Transform:
@@ -7350,7 +7422,7 @@ PrefabInstance:
     - target: {fileID: 2286615852660720966, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
