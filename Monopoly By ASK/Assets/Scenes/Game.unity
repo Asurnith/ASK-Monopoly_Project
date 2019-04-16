@@ -157,15 +157,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 6973813}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adba4c081e72b034ba36afbcded84868, type: 3}
+  m_Script: {fileID: 11500000, guid: db2e03e00da6d584dab4145ffb88b3da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 0
+  tileType: 1
   tileIndex: 0
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
-  _deck: {fileID: 0}
-  CommunityChest: []
+  _deck: {fileID: 1466328732}
 --- !u!4 &6973817 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -1119,7 +1118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 3
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 30
@@ -1705,12 +1704,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adba4c081e72b034ba36afbcded84868, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 0
-  tileIndex: 0
-  tileName: 
-  tileLocation: {x: 0, y: 0, z: 0}
-  _deck: {fileID: 0}
-  CommunityChest: []
 --- !u!1001 &458357623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2053,7 +2046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 6
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -3326,7 +3319,7 @@ MonoBehaviour:
   tileIndex: 2
   tileName: Comunity Chest
   tileLocation: {x: 0, y: 0, z: 0}
-  _deck: {fileID: 1466328732}
+  _deck: {fileID: 0}
 --- !u!4 &875993498 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -4082,7 +4075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 4
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
 --- !u!4 &1048154084 stripped
@@ -4209,12 +4202,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bce98e07e9c9fa643b628afe0df94ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 0
-  tileIndex: 0
-  tileName: 
-  tileLocation: {x: 0, y: 0, z: 0}
-  _deck: {fileID: 0}
-  ChanceCards: []
 --- !u!4 &1121406342 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5335,12 +5322,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bce98e07e9c9fa643b628afe0df94ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 0
-  tileIndex: 0
-  tileName: 
-  tileLocation: {x: 0, y: 0, z: 0}
-  _deck: {fileID: 0}
-  ChanceCards: []
 --- !u!4 &1433633065 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5640,12 +5621,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bce98e07e9c9fa643b628afe0df94ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 0
-  tileIndex: 0
-  tileName: 
-  tileLocation: {x: 0, y: 0, z: 0}
-  _deck: {fileID: 0}
-  ChanceCards: []
 --- !u!4 &1481269446 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -6050,7 +6025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 5
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -6636,12 +6611,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adba4c081e72b034ba36afbcded84868, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 0
-  tileIndex: 0
-  tileName: 
-  tileLocation: {x: 0, y: 0, z: 0}
-  _deck: {fileID: 0}
-  CommunityChest: []
 --- !u!4 &1774723908 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -7068,7 +7037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 1
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
