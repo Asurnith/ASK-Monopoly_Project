@@ -1,21 +1,43 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class CardBehavior : Tile
 {
-    private bool _isChance;
-
+    [SerializeField] private GameObject _deck;
     public override void TileEffect(GameObject player)
     {
-        if (_isChance)
+        GameObject card = _deck.GetComponent<Deck>().deck.Dequeue();
+        
+        switch (card.GetComponent<Transform>().name)
         {
-            //dequeue from Chance Queue
+            case "consultancyFee":
+                player.GetComponent<AmountOfMoney>().ChangeBalence(25);
+                break;
+            case 
         }
-        else
-        {
-            //dequeue from CC Queue 
-        }
+            
+    }
+
+    public void PayPlayer(int value, GameObject player)
+    {
+        GetComponent<AmountOfMoney>().Pay(value, player); 
+    }
+
+    public void PayBank(int value)
+    {
+        GetComponent<AmountOfMoney>().ChangeBalence(-value);
+    }
+
+    public void ReciveMoney(int value)
+    {
+        GetComponent<AmountOfMoney>().ChangeBalence(value);
+    }
+
+    public void GoTo(int index, bool doWePassGo)
+    {
+        GetComponent<Position>().MoveToTile(index, doWePassGo);
     }
     
     

@@ -164,6 +164,7 @@ MonoBehaviour:
   tileIndex: 0
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
+  _deck: {fileID: 0}
   CommunityChest: []
 --- !u!4 &6973817 stripped
 Transform:
@@ -1693,6 +1694,7 @@ MonoBehaviour:
   tileIndex: 0
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
+  _deck: {fileID: 0}
   CommunityChest: []
 --- !u!1001 &458357623
 PrefabInstance:
@@ -3286,14 +3288,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 875993494}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adba4c081e72b034ba36afbcded84868, type: 3}
+  m_Script: {fileID: 11500000, guid: db2e03e00da6d584dab4145ffb88b3da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 0
-  tileIndex: 0
-  tileName: 
+  tileType: 1
+  tileIndex: 2
+  tileName: Comunity Chest
   tileLocation: {x: 0, y: 0, z: 0}
-  CommunityChest: []
+  _deck: {fileID: 1466328732}
 --- !u!4 &875993498 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -4169,6 +4171,7 @@ MonoBehaviour:
   tileIndex: 0
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
+  _deck: {fileID: 0}
   ChanceCards: []
 --- !u!4 &1121406342 stripped
 Transform:
@@ -5285,6 +5288,7 @@ MonoBehaviour:
   tileIndex: 0
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
+  _deck: {fileID: 0}
   ChanceCards: []
 --- !u!4 &1433633065 stripped
 Transform:
@@ -5411,6 +5415,25 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 606a0e0b21e55a54c9146f9a15d40327, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5a6c1e87faa0fb409b82c981ddabf8a, type: 3}
+--- !u!1 &1466328732 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8675085856520550193, guid: c5a6c1e87faa0fb409b82c981ddabf8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1466328731}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1466328733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466328732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50b9b530dfedf7b4e82d39f6cb2ecb26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _deck: []
 --- !u!1 &1471946675 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5567,6 +5590,7 @@ MonoBehaviour:
   tileIndex: 0
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
+  _deck: {fileID: 0}
   ChanceCards: []
 --- !u!4 &1481269446 stripped
 Transform:
@@ -6554,6 +6578,7 @@ MonoBehaviour:
   tileIndex: 0
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
+  _deck: {fileID: 0}
   CommunityChest: []
 --- !u!4 &1774723908 stripped
 Transform:
@@ -7860,12 +7885,12 @@ MonoBehaviour:
   tiles:
   - {fileID: 872310327}
   - {fileID: 1829891281}
-  - {fileID: 875993496}
+  - {fileID: 0}
   - {fileID: 213800549}
   - {fileID: 1048154081}
   - {fileID: 1556589601}
   - {fileID: 563448800}
-  - {fileID: 1481269444}
+  - {fileID: 0}
   - {fileID: 1413267615}
   - {fileID: 1902072137}
   - {fileID: 1289507700}
@@ -7875,12 +7900,12 @@ MonoBehaviour:
   - {fileID: 1895787122}
   - {fileID: 1906529853}
   - {fileID: 770788621}
-  - {fileID: 6973815}
+  - {fileID: 0}
   - {fileID: 1471946676}
   - {fileID: 1743747948}
   - {fileID: 610403036}
   - {fileID: 383535744}
-  - {fileID: 1433633063}
+  - {fileID: 0}
   - {fileID: 614439770}
   - {fileID: 533510905}
   - {fileID: 1118586907}
@@ -7891,10 +7916,10 @@ MonoBehaviour:
   - {fileID: 83077495}
   - {fileID: 1283941990}
   - {fileID: 243332039}
-  - {fileID: 1774723906}
+  - {fileID: 0}
   - {fileID: 573201336}
   - {fileID: 687846042}
-  - {fileID: 1121406340}
+  - {fileID: 0}
   - {fileID: 149529641}
   - {fileID: 1591941019}
   - {fileID: 1002317333}
