@@ -5,16 +5,16 @@ using UnityEngine;
 public class GameLoop : MonoBehaviour
 {
 
-    public string hi;
+    [SerializeField] private List<GameObject> _players;
+  
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 }
