@@ -15,7 +15,30 @@ public class CardBehavior : Tile
             case "consultancyFee":
                 player.GetComponent<AmountOfMoney>().ChangeBalence(25);
                 break;
-            case 
+            case "streetRepairs":
+
+                break;
+            case "schoolFee":
+                GetComponent<AmountOfMoney>().ChangeBalence(-50);
+                break;
+            case "getOutOfJail":
+
+                break;
+            case "lifeInsuranceMature":
+                GetComponent<AmountOfMoney>().ChangeBalence(100);
+                break;
+            case "wonBeautyContest":
+                GetComponent<AmountOfMoney>().ChangeBalence(10);
+                break;
+            case "birthdayGift":
+
+                break;
+            case "incomeTaxRefund":
+                GetComponent<AmountOfMoney>().ChangeBalence(20);
+                break;
+            case "doctorsFee":
+                GetComponent<AmountOfMoney>().ChangeBalence(-50);
+                break;
         }
             
     }
