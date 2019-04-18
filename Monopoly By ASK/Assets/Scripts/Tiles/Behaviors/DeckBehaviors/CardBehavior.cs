@@ -16,29 +16,68 @@ public class CardBehavior : Tile
                 player.GetComponent<AmountOfMoney>().ChangeBalence(25);
                 break;
             case "streetRepairs":
-
+                //wait for house system, houses owned x 40, hotels owned x 115
                 break;
             case "schoolFee":
-                GetComponent<AmountOfMoney>().ChangeBalence(-50);
+                player.GetComponent<AmountOfMoney>().ChangeBalence(-50);
                 break;
             case "getOutOfJail":
-
+                //jail cards counter ++ in "deeds owned" 
                 break;
             case "lifeInsuranceMature":
-                GetComponent<AmountOfMoney>().ChangeBalence(100);
+                player.GetComponent<AmountOfMoney>().ChangeBalence(100);
                 break;
             case "wonBeautyContest":
-                GetComponent<AmountOfMoney>().ChangeBalence(10);
+                player.GetComponent<AmountOfMoney>().ChangeBalence(10);
                 break;
             case "birthdayGift":
-
+                //foreach player in the player list, pays card holder $10
                 break;
             case "incomeTaxRefund":
-                GetComponent<AmountOfMoney>().ChangeBalence(20);
+                player.GetComponent<AmountOfMoney>().ChangeBalence(20);
                 break;
             case "doctorsFee":
-                GetComponent<AmountOfMoney>().ChangeBalence(-50);
+                player.GetComponent<AmountOfMoney>().ChangeBalence(-50);
                 break;
+            case "goToJail" :
+                player.GetComponent<Position>().MoveToTile(41, true);
+                break;
+            case "stocks" :
+                player.GetComponent<AmountOfMoney>().ChangeBalence(50);
+                break;
+            case "Go" :
+                player.GetComponent<Position>().MoveToTile(0, false);
+                break;
+            case "holidayFundMature" :
+                player.GetComponent<AmountOfMoney>().ChangeBalence(100);
+                break; 
+            case "inherit" :
+                player.GetComponent<AmountOfMoney>().ChangeBalence(100);
+                break;
+            case "bankError" :
+                player.GetComponent<AmountOfMoney>().ChangeBalence(200);
+                break; 
+            case "hospitalFee" :
+                player.GetComponent<AmountOfMoney>().ChangeBalence(-100);
+                break;
+            case "goToJailTwo" :
+                player.GetComponent<Position>().MoveToTile(40, true);
+                break;
+            case "buildingLoanMature" :
+                player.GetComponent<AmountOfMoney>().ChangeBalence(150);
+                break;
+            case "payedByBank" :
+                player.GetComponent<AmountOfMoney>().ChangeBalence(50);
+                break; 
+            case "boardWalk" :
+                player.GetComponent<Position>().MoveToTile(39,false );
+                break;
+            case ""
+                
+                
+                
+            
+
         }
             
     }
