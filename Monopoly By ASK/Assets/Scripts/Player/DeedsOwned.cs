@@ -11,6 +11,8 @@ public class DeedsOwned : MonoBehaviour
         GetComponent<AmountOfMoney>().ChangeBalence(-property.GetComponent<PropertyBehavior>().tilePrice);
         propertiesOwned.Add(property);
     }
+    
+    public int getOutOfJailCards = 0; 
 
 
 }

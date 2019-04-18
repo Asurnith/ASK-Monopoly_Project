@@ -22,7 +22,7 @@ public class CardBehavior : Tile
                 player.GetComponent<AmountOfMoney>().ChangeBalence(-50);
                 break;
             case "getOutOfJail":
-                //jail cards counter ++ in "deeds owned" 
+                player.GetComponent<DeedsOwned>().getOutOfJailCards++;   
                 break;
             case "lifeInsuranceMature":
                 player.GetComponent<AmountOfMoney>().ChangeBalence(100);
@@ -40,7 +40,7 @@ public class CardBehavior : Tile
                 player.GetComponent<AmountOfMoney>().ChangeBalence(-50);
                 break;
             case "goToJail" :
-                player.GetComponent<Position>().MoveToTile(41, true);
+                player.GetComponent<Position>().MoveToTile(40, true);
                 break;
             case "stocks" :
                 player.GetComponent<AmountOfMoney>().ChangeBalence(50);
@@ -72,7 +72,18 @@ public class CardBehavior : Tile
             case "boardWalk" :
                 player.GetComponent<Position>().MoveToTile(39,false );
                 break;
-            case ""
+            case "GoTwo" :
+                player.GetComponent<Position>().MoveToTile(0, false);
+                break; 
+            case "generalPropertyRepairs" :
+                //house system, houses owned x 25, hotels owned x 100
+                break;
+            case "getOutOfJailTwo" :
+                player.GetComponent<DeedsOwned>().getOutOfJailCards++;
+                break;
+            case "st.CharlesPLace" :
+                player.GetComponent<Position>().MoveToTile(11, false);
+                break;
                 
                 
                 
