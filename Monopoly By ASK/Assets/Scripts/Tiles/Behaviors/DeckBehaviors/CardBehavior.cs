@@ -72,12 +72,6 @@ public class CardBehavior : Tile
             case "boardWalk" :
                 player.GetComponent<Position>().MoveToTile(39,false );
                 break;
-            case ""
-                
-                
-                
-            
-
         }
             
     }

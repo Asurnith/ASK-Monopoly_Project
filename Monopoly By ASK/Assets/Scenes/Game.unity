@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964127, b: 0.57481724, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 1
-  tileIndex: 0
+  tileIndex: 17
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   _deck: {fileID: 1466328732}
@@ -489,7 +489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 30
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
 --- !u!4 &83077499 stripped
@@ -517,7 +517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 26
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -931,7 +931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 37
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -1364,7 +1364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 32
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -1586,7 +1586,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a07ac6c040adb8b45b7814af1f07ddef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalValue: 0
   dieOne: {fileID: 138854635}
   dieTwo: {fileID: 519422726}
   _dieFaces:
@@ -1631,7 +1630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 21
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -2134,7 +2133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 24
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -2297,7 +2296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 34
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -2365,7 +2364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 20
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
 --- !u!4 &610403040 stripped
@@ -2393,7 +2392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 23
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -2890,7 +2889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 35
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -3081,7 +3080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 16
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -3558,7 +3557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 13
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -3777,7 +3776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 28
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -4091,7 +4090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 39
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -4316,7 +4315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 11
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -4384,7 +4383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 25
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -4773,7 +4772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 31
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -4811,7 +4810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 10
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
 --- !u!4 &1289507704 stripped
@@ -4839,7 +4838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 29
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -5498,7 +5497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 8
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -5698,7 +5697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 18
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 90
@@ -5959,7 +5958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 27
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -6369,7 +6368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 38
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
 --- !u!4 &1591941022 stripped
@@ -6724,7 +6723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 12
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -6787,7 +6786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 19
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -7251,7 +7250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 1
-  tileName: 
+  tileName: Mediterranian Avenue
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
   tileUnmortgage: 0
@@ -7568,7 +7567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 14
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -7636,7 +7635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 9
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 0
@@ -7674,7 +7673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tileIndex: 0
+  tileIndex: 15
   tileName: 
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 100
