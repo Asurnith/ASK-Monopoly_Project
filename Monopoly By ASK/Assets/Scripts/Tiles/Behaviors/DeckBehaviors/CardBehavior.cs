@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO.Compression;
 using UnityEngine;
 
 public class CardBehavior : Tile
@@ -43,7 +44,7 @@ public class CardBehavior : Tile
                 player.GetComponent<AmountOfMoney>().ChangeBalence(-50);
                 break;
             case "goToJail" :
-                player.GetComponent<Position>().MoveToTile(40, true);
+                player.GetComponent<Position>().MoveToTile(-1, true);
                 break;
             case "stocks" :
                 player.GetComponent<AmountOfMoney>().ChangeBalence(50);
@@ -64,7 +65,7 @@ public class CardBehavior : Tile
                 player.GetComponent<AmountOfMoney>().ChangeBalence(-100);
                 break;
             case "goToJailTwo" :
-                player.GetComponent<Position>().MoveToTile(40, true);
+                player.GetComponent<Position>().MoveToTile(-1, true);
                 break;
             case "buildingLoanMature" :
                 player.GetComponent<AmountOfMoney>().ChangeBalence(150);
@@ -103,35 +104,46 @@ public class CardBehavior : Tile
                 foreach (var otherPlayers in GameLoop._players)
                     player.GetComponent<AmountOfMoney>().Pay(50, otherPlayers);
                 break;
+            case "nearestRailRoad" :
+                int index = player.GetComponent<Position>().currentIndex;
+                if (35 < index && index < 25)
+                    player.GetComponent<Position>().MoveToTile(35, false);
+                else if(25 < index && index < 15)
+                    player.GetComponent<Position>().MoveToTile(25, false);
+                else if(15 < index && index < 5)
+                    player.GetComponent<Position>().MoveToTile(15, false);
+                else
+                    player.GetComponent<Position>().MoveToTile(5, false);
+                break;
+            case "nearestRailRoadTwo" :
+                int index2 = player.GetComponent<Position>().currentIndex;
+                if (35 < index2 && index2 < 25)
+                    player.GetComponent<Position>().MoveToTile(35, false);
+                else if(25 < index2 && index2 < 15)
+                    player.GetComponent<Position>().MoveToTile(25, false);
+                else if(15 < index2 && index2 < 5)
+                    player.GetComponent<Position>().MoveToTile(15, false);
+                else
+                    player.GetComponent<Position>().MoveToTile(5, false);
+                break;
+            case "nearestUtility" :
+                int index3 = player.GetComponent<Position>().currentIndex;
+                if (28 < index3 && index3 < 12)
+                    player.GetComponent<Position>().MoveToTile(28, false);
+                else
+                    player.GetComponent<Position>().MoveToTile(12, false);
+                break;
+            
+                    
                 
-                
-                
+             
             
 
         }
             
     }
 
-    public void PayPlayer(int value, GameObject player)
-    {
-        GetComponent<AmountOfMoney>().Pay(value, player); 
-    }
-
-    public void PayBank(int value)
-    {
-        GetComponent<AmountOfMoney>().ChangeBalence(-value);
-    }
-
-    public void ReciveMoney(int value)
-    {
-        GetComponent<AmountOfMoney>().ChangeBalence(value);
-    }
-
-    public void GoTo(int index, bool doWePassGo)
-    {
-        GetComponent<Position>().MoveToTile(index, doWePassGo);
-    }
-    
+  
     
 }
 
