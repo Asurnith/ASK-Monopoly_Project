@@ -18,9 +18,9 @@ public abstract class Tile : MonoBehaviour
 
     public void GenerateBasicTile(Tile tile)
     {
-        this.tileName = this.name;
-        this.tileLocation = this.transform.position;
-        this.tileType = (GenerateTiles.TileType) Enum.Parse(typeof(GenerateTiles.TileType), tag);
+        tileName = name;
+        tileLocation = transform.position;
+        tileType = (GenerateTiles.TileType) Enum.Parse(typeof(GenerateTiles.TileType), tag);
 
     }
     
