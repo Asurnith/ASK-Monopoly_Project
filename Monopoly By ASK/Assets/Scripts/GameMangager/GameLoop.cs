@@ -2,32 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameLoop : MonoBehaviour
+public static class GameLoop
 {
-    [SerializeField] public List<GameObject> _players;
-    [SerializeField] private GameObject _dice, 
-                                        _tileManager;
-    
-  
+    [SerializeField] public static List<GameObject> _players;
+    [SerializeField] private static GameObject _dice;
+
+    [SerializeField] private static GameObject _tileManager;
+
+
     // Start is called before the first frame update
-    void Start()
-    {
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void Round()
+    private static void Round()
     {
         foreach (var player in _players)
             Turn(player);
     }
     
-    private void Turn(GameObject player)
+    private static void Turn(GameObject player)
     {
         player.GetComponent<Position>().MovePlayer(_dice.GetComponent<Dice>().Roll());
        _tileManager.GetComponent<GenerateTiles>().tiles[player.GetComponent<Position>().currentIndex].TileEffect(player);

@@ -31,7 +31,10 @@ public class CardBehavior : Tile
                 player.GetComponent<AmountOfMoney>().ChangeBalence(10);
                 break;
             case "birthdayGift":
-                foreach(var otherPLayer in GameLoop.getComponent<GameLoop>().playersList )
+                foreach (var otherPLayers in GameLoop._players)
+                {
+                    otherPLayers.GetComponent<AmountOfMoney>().Pay(10, player);
+                }
                 break;
             case "incomeTaxRefund":
                 player.GetComponent<AmountOfMoney>().ChangeBalence(20);
@@ -96,8 +99,10 @@ public class CardBehavior : Tile
             case "readingRailRoad" :
                 player.GetComponent<Position>().MoveToTile(5, false);
                 break;
-            case 
-                
+            case "electedChairMan" :
+                foreach (var otherPlayers in GameLoop._players)
+                    player.GetComponent<AmountOfMoney>().Pay(50, otherPlayers);
+                break;
                 
                 
                 
