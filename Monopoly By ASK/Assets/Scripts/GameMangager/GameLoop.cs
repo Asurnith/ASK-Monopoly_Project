@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameLoop : MonoBehaviour
 {
-    [SerializeField] private List<GameObject> _players;
+    [SerializeField] public List<GameObject> _players;
     [SerializeField] private GameObject _dice, 
                                         _tileManager;
     
@@ -35,10 +35,6 @@ public class GameLoop : MonoBehaviour
     }
 }
 
-//Turn
-//Roll dice
-//Move the number of spaces the dice rolled
-//Do one of these tile interactions: Buy property, Don't buy (auction), Taking a Chance/CC card and following the rules of it, or Pay
-//Next Turn 
-
-//Methods needed: 
+//Main Menu 
+// Have a start button that starts the game
+// 
