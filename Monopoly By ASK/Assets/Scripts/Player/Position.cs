@@ -1,29 +1,32 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Position : MonoBehaviour
+namespace Player
 {
-    public int currentIndex { get; set; }
-    public void MovePlayer(int spaces)
+    public class Position : MonoBehaviour
     {
-        currentIndex += spaces;
-        CheckGo(false);
-    }
+        public int CurrentIndex { get; set; }
+        public void MovePlayer(int spaces)
+        {
+            CurrentIndex += spaces;
+            CheckGo(false);
+        }
 
-    public void MoveToTile(int tile, bool doNotPassGo)
-    {
-        if (currentIndex > tile)
-            currentIndex = 40 + tile;
-        else
-            currentIndex = tile;
-        CheckGo(doNotPassGo);
-    }
+        public void MoveToTile(int tile, bool doNotPassGo)
+        {
+            if (CurrentIndex > tile)
+                CurrentIndex = 40 + tile;
+            else
+                CurrentIndex = tile;
+            CheckGo(doNotPassGo);
+            GameLoop.CheckTileEffect(gameObject);
+        }
 
-    private void CheckGo(bool doNotPassGo)
-    {
-        if (currentIndex >= 40 && !doNotPassGo)
-            GetComponent<AmountOfMoney>().ChangeBalence(200);
-        currentIndex %= 40;
+        private void CheckGo(bool doNotPassGo)
+        {
+            if (CurrentIndex >= 40 && !doNotPassGo )
+                GetComponent<AmountOfMoney>().ChangeBalence(200);
+            if(CurrentIndex != 999)
+                CurrentIndex %= 40;
+        }
     }
 }
