@@ -14,7 +14,7 @@ public static class GameLoop
 
     private static void Round()
     {
-        foreach (var player in _players)
+        foreach (var player in players)
             Turn(player);
     }
     
@@ -27,5 +27,11 @@ public static class GameLoop
 }
 
 //Main Menu 
-// Have a start button that starts the game
-// 
+// Have a start button that starts the game and a quit button (during the game only)
+// Have a list that has the option of adding or subtracting players (Min players -2, Max players -8)
+// Have the option of giving each player a name (OPTIONAL)
+// Add a "RULES" button to accommodate for new players (OPTIONAL)
+
+//What a game should have
+//Main Menu (DONE)
+//
