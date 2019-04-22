@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964127, b: 0.57481724, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 1
   tileIndex: 17
-  tileName: 
+  tileName: Community Chest 2
   tileLocation: {x: 0, y: 0, z: 0}
   _deck: {fileID: 1466328732}
 --- !u!4 &6973817 stripped
@@ -171,63 +171,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1839243948}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &9488800
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 100002, guid: 3132b85d08b799349ad584508ccbee46, type: 3}
-      propertyPath: m_Name
-      value: Wizard (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 3132b85d08b799349ad584508ccbee46, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 38.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 3132b85d08b799349ad584508ccbee46, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 35.53
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 3132b85d08b799349ad584508ccbee46, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -278.41
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 3132b85d08b799349ad584508ccbee46, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 3132b85d08b799349ad584508ccbee46, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 3132b85d08b799349ad584508ccbee46, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 3132b85d08b799349ad584508ccbee46, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 3132b85d08b799349ad584508ccbee46, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 3132b85d08b799349ad584508ccbee46, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 3132b85d08b799349ad584508ccbee46, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 3132b85d08b799349ad584508ccbee46, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3132b85d08b799349ad584508ccbee46, type: 3}
 --- !u!1001 &39925264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -463,12 +406,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 74446824}
-  m_LocalRotation: {x: 0, y: 0.8660254, z: -0.5, w: 0}
-  m_LocalPosition: {x: 0, y: 300, z: 400}
+  m_LocalRotation: {x: -0, y: 0.8660254, z: -0.5, w: 0}
+  m_LocalPosition: {x: -298.6, y: 282, z: 705.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 641060437}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 60, y: 180, z: 0}
 --- !u!1 &83077494 stripped
 GameObject:
@@ -488,9 +431,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d12425ca253cd3428413dd33f205d2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 0
+  tileType: 6
   tileIndex: 30
-  tileName: 
+  tileName: Go To Jail
   tileLocation: {x: 0, y: 0, z: 0}
 --- !u!4 &83077499 stripped
 Transform:
@@ -518,18 +461,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 26
-  tileName: 
+  tileName: Atlantic Avenue
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 130
+  tileUnmortgage: 143
+  tilePrice: 260
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 150
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 160000002c0000006e0000004a01000020030000cf0300007e040000
 --- !u!4 &106116135 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -546,7 +488,7 @@ PrefabInstance:
     - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Name
-      value: Short Bus
+      value: Short Line
       objectReference: {fileID: 0}
     - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -764,75 +706,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
---- !u!1001 &138401593
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 100002, guid: 6a87b1ae177338e4c86921f5e3b5fcad, type: 3}
-      propertyPath: m_Name
-      value: Dragon
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 6a87b1ae177338e4c86921f5e3b5fcad, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 207.65686
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 6a87b1ae177338e4c86921f5e3b5fcad, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 27.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 6a87b1ae177338e4c86921f5e3b5fcad, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -378.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 6a87b1ae177338e4c86921f5e3b5fcad, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 6a87b1ae177338e4c86921f5e3b5fcad, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 6a87b1ae177338e4c86921f5e3b5fcad, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 6a87b1ae177338e4c86921f5e3b5fcad, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 6a87b1ae177338e4c86921f5e3b5fcad, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 6a87b1ae177338e4c86921f5e3b5fcad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 6a87b1ae177338e4c86921f5e3b5fcad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 6a87b1ae177338e4c86921f5e3b5fcad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 6a87b1ae177338e4c86921f5e3b5fcad, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 6a87b1ae177338e4c86921f5e3b5fcad, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 6a87b1ae177338e4c86921f5e3b5fcad, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.25
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6a87b1ae177338e4c86921f5e3b5fcad, type: 3}
 --- !u!1 &138854635
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,18 +805,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 37
-  tileName: 
+  tileName: Park Place
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 175
+  tileUnmortgage: 193
+  tilePrice: 350
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 200
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 2300000046000000af000000f40100004c04000014050000dc050000
 --- !u!4 &149529644 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -1198,15 +1070,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 3
-  tileName: 
+  tileName: Baltic Avenue
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 30
   tileUnmortgage: 33
   tilePrice: 60
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 50
-  hotelCost: 50
+  buildingCost: 50
   houseCount: 0
   hasHotel: 0
   rentValues: 0400000008000000140000003c000000b400000040010000c2010000
@@ -1365,18 +1236,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 32
-  tileName: 
+  tileName: North Carolina Avenue
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 150
+  tileUnmortgage: 165
+  tilePrice: 300
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 200
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 1a000000340000008200000086010000840300004c040000fb040000
 --- !u!4 &243332042 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -1450,7 +1320,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &273149894
 PrefabInstance:
@@ -1609,7 +1479,7 @@ Transform:
   - {fileID: 138854637}
   - {fileID: 519422728}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &383535743 stripped
 GameObject:
@@ -1631,18 +1501,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 21
-  tileName: 
+  tileName: Kentucky Avenue
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 110
+  tileUnmortgage: 121
+  tilePrice: 220
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 150
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 12000000240000005a000000fa000000bc0200006b0300001a040000
 --- !u!4 &383535747 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -1823,7 +1692,7 @@ Transform:
   - {fileID: 42150453}
   - {fileID: 991791592}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &447726504
 MonoBehaviour:
@@ -2134,81 +2003,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 24
-  tileName: 
+  tileName: Illinois Avenue
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 120
+  tileUnmortgage: 132
+  tilePrice: 240
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 150
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 1400000028000000640000002c010000ee0200009d0300004c040000
 --- !u!4 &533510908 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
     type: 3}
   m_PrefabInstance: {fileID: 273149894}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &556943795
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 100002, guid: 9afc804b76dcc1746828f4d8fbda1cb7, type: 3}
-      propertyPath: m_Name
-      value: Knight
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 9afc804b76dcc1746828f4d8fbda1cb7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 55.2429
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 9afc804b76dcc1746828f4d8fbda1cb7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 19.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 9afc804b76dcc1746828f4d8fbda1cb7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -327.26474
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 9afc804b76dcc1746828f4d8fbda1cb7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 9afc804b76dcc1746828f4d8fbda1cb7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 9afc804b76dcc1746828f4d8fbda1cb7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 9afc804b76dcc1746828f4d8fbda1cb7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 9afc804b76dcc1746828f4d8fbda1cb7, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 9afc804b76dcc1746828f4d8fbda1cb7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 9afc804b76dcc1746828f4d8fbda1cb7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 9afc804b76dcc1746828f4d8fbda1cb7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9afc804b76dcc1746828f4d8fbda1cb7, type: 3}
 --- !u!1 &559265947
 GameObject:
   m_ObjectHideFlags: 0
@@ -2259,18 +2070,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 6
-  tileName: 
+  tileName: Oriental Avenue
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 50
+  tileUnmortgage: 55
+  tilePrice: 100
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 50
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 060000000c0000001e0000005a0000000e0100009001000026020000
 --- !u!4 &563448803 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -2297,18 +2107,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 34
-  tileName: 
+  tileName: Pennsylvania Avenue
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 160
+  tileUnmortgage: 176
+  tilePrice: 320
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 200
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 1c0000003800000096000000c2010000e8030000b004000078050000
 --- !u!4 &573201339 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -2363,9 +2172,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db90a34e45d61404ca61abe08ccd9988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 0
+  tileType: 4
   tileIndex: 20
-  tileName: 
+  tileName: Free Parking
   tileLocation: {x: 0, y: 0, z: 0}
 --- !u!4 &610403040 stripped
 Transform:
@@ -2393,18 +2202,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 23
-  tileName: 
+  tileName: Indiana Avenue
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 110
+  tileUnmortgage: 121
+  tilePrice: 220
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 150
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 12000000240000005a000000fa000000bc0200009d0300004c040000
 --- !u!4 &614439773 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -2625,7 +2433,7 @@ GameObject:
   - component: {fileID: 638664482}
   - component: {fileID: 638664481}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2739,7 +2547,42 @@ Transform:
   m_LocalScale: {x: 30, y: 30, z: 30}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &641060436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 641060437}
+  m_Layer: 0
+  m_Name: Cameras
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &641060437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641060436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 298.6, y: 18, z: -305.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 965850006}
+  - {fileID: 887513854}
+  - {fileID: 1550796344}
+  - {fileID: 74446827}
+  - {fileID: 1886880757}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &644639544
 PrefabInstance:
@@ -2890,11 +2733,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 35
-  tileName: 
+  tileName: Short Line
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 100
+  tileUnmortgage: 110
+  tilePrice: 200
   owner: {fileID: 0}
 --- !u!4 &687846045 stripped
 Transform:
@@ -3081,18 +2924,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 16
-  tileName: 
+  tileName: St. James Place
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 90
+  tileUnmortgage: 99
+  tilePrice: 180
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 100
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 0e0000001c00000046000000c800000026020000ee020000b6030000
 --- !u!4 &770788624 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -3247,10 +3089,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1000, y: 0.5, z: 1000}
   m_Children:
-  - {fileID: 2145341344}
   - {fileID: 1330933906}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &832225482
 GameObject:
@@ -3292,7 +3133,7 @@ PrefabInstance:
     - target: {fileID: 2553669523630655510, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
         type: 3}
       propertyPath: m_Name
-      value: Go To Jail For Free Lmao
+      value: Go To Jail
       objectReference: {fileID: 0}
     - target: {fileID: 2553669523630655510, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
         type: 3}
@@ -3529,9 +3370,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 1
   tileIndex: 2
-  tileName: Comunity Chest
+  tileName: Community Chest 1
   tileLocation: {x: 0, y: 0, z: 0}
-  _deck: {fileID: 0}
+  _deck: {fileID: 1466328732}
 --- !u!4 &875993498 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -3558,18 +3399,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 13
-  tileName: 
+  tileName: States Avenue
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 70
+  tileUnmortgage: 77
+  tilePrice: 140
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 100
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 0a000000140000003200000096000000c201000071020000ee020000
 --- !u!4 &879672954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -3651,12 +3491,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 887513851}
-  m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 300, z: -400}
+  m_LocalRotation: {x: 0.5, y: -0, z: -0, w: 0.8660254}
+  m_LocalPosition: {x: -298.6, y: 282, z: -94.399994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 641060437}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
 --- !u!1001 &893749427
 PrefabInstance:
@@ -3777,11 +3617,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 28
-  tileName: 
+  tileName: Water Works
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 75
+  tileUnmortgage: 83
+  tilePrice: 150
   owner: {fileID: 0}
   twoUtilities: 0
 --- !u!1 &952966175
@@ -3828,7 +3668,7 @@ Transform:
   - {fileID: 1737697634}
   - {fileID: 1655249005}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &964934238
 PrefabInstance:
@@ -4004,11 +3844,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965850003}
-  m_LocalRotation: {x: 0.5735764, y: 0, z: 0, w: 0.8191521}
-  m_LocalPosition: {x: 0, y: 746.78, z: -416}
+  m_LocalRotation: {x: 0.5735764, y: -0, z: -0, w: 0.8191521}
+  m_LocalPosition: {x: -298.6, y: 728.78, z: -110.399994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 641060437}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 70, y: 0, z: 0}
 --- !u!1 &967024244
@@ -4091,18 +3931,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 39
-  tileName: 
+  tileName: Board Walk
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 200
+  tileUnmortgage: 220
+  tilePrice: 400
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 200
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 3200000064000000c80000005802000078050000a4060000d0070000
 --- !u!4 &1002317336 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -4119,7 +3958,7 @@ PrefabInstance:
     - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
       propertyPath: m_Name
-      value: Market Gardens
+      value: Marvin Gardens
       objectReference: {fileID: 0}
     - target: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
         type: 3}
@@ -4286,10 +4125,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 646f15c0bf6cb124aa2fb4f9b5b09b2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 0
+  tileType: 3
   tileIndex: 4
-  tileName: 
+  tileName: Income Tax
   tileLocation: {x: 0, y: 0, z: 0}
+  cost: 200
 --- !u!4 &1048154084 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -4316,18 +4156,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 11
-  tileName: 
+  tileName: St. Charles Place
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 70
+  tileUnmortgage: 77
+  tilePrice: 140
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 100
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 0a000000140000003200000096000000c201000071020000ee020000
 --- !u!4 &1087404682 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -4384,11 +4223,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 25
-  tileName: 
+  tileName: B. & O. Railroad
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 100
+  tileUnmortgage: 110
+  tilePrice: 200
   owner: {fileID: 0}
 --- !u!4 &1118586910 stripped
 Transform:
@@ -4411,9 +4250,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1121406338}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bce98e07e9c9fa643b628afe0df94ef4, type: 3}
+  m_Script: {fileID: 11500000, guid: db2e03e00da6d584dab4145ffb88b3da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tileType: 2
+  tileIndex: 36
+  tileName: Chance 3
+  tileLocation: {x: 0, y: 0, z: 0}
+  _deck: {fileID: 1926889421}
 --- !u!4 &1121406342 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -4773,18 +4617,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 31
-  tileName: 
+  tileName: Pacific Avenue
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 150
+  tileUnmortgage: 165
+  tilePrice: 300
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 200
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 1a000000340000008200000086010000840300004c040000fb040000
 --- !u!4 &1283941993 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -4809,9 +4652,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6899625e2abf7af47ba5ef0e3c013c72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 0
+  tileType: 7
   tileIndex: 10
-  tileName: 
+  tileName: Jail
   tileLocation: {x: 0, y: 0, z: 0}
 --- !u!4 &1289507704 stripped
 Transform:
@@ -4839,18 +4682,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 29
-  tileName: 
+  tileName: Marvin Gardens
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 140
+  tileUnmortgage: 154
+  tilePrice: 280
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 150
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 180000003000000078000000680100005203000001040000b0040000
 --- !u!4 &1292822897 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5075,7 +4917,7 @@ Transform:
   m_LocalScale: {x: 0.7, y: 2, z: 0.7}
   m_Children: []
   m_Father: {fileID: 828389302}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1341847673
 GameObject:
@@ -5206,75 +5048,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
---- !u!1001 &1393224611
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 100000, guid: f099dbc7012e7aa408069273273a0736, type: 3}
-      propertyPath: m_Name
-      value: Horse
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f099dbc7012e7aa408069273273a0736, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -17.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f099dbc7012e7aa408069273273a0736, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f099dbc7012e7aa408069273273a0736, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -314.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f099dbc7012e7aa408069273273a0736, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f099dbc7012e7aa408069273273a0736, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f099dbc7012e7aa408069273273a0736, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f099dbc7012e7aa408069273273a0736, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f099dbc7012e7aa408069273273a0736, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f099dbc7012e7aa408069273273a0736, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f099dbc7012e7aa408069273273a0736, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f099dbc7012e7aa408069273273a0736, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f099dbc7012e7aa408069273273a0736, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f099dbc7012e7aa408069273273a0736, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f099dbc7012e7aa408069273273a0736, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f099dbc7012e7aa408069273273a0736, type: 3}
 --- !u!1001 &1404757407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5498,18 +5271,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 8
-  tileName: 
+  tileName: Vermont Avenue
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 50
+  tileUnmortgage: 55
+  tilePrice: 100
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 50
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 080000001000000028000000640000002c010000c201000058020000
 --- !u!4 &1413267618 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5531,9 +5303,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1433633061}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bce98e07e9c9fa643b628afe0df94ef4, type: 3}
+  m_Script: {fileID: 11500000, guid: db2e03e00da6d584dab4145ffb88b3da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tileType: 2
+  tileIndex: 22
+  tileName: Chance 2
+  tileLocation: {x: 0, y: 0, z: 0}
+  _deck: {fileID: 1926889421}
 --- !u!4 &1433633065 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5569,6 +5346,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 447726503}
   m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1453629912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1453629914}
+  - component: {fileID: 1453629913}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1453629913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453629912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a70a862084cb4e4f89f7f460d7913db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _players: []
+--- !u!4 &1453629914
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453629912}
+  m_LocalRotation: {x: -0, y: -0.38268343, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 158, y: 9, z: -158}
+  m_LocalScale: {x: 110.000015, y: 15, z: 70}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1466328731
 PrefabInstance:
@@ -5620,7 +5441,7 @@ PrefabInstance:
     - target: {fileID: 8675085856520550197, guid: c5a6c1e87faa0fb409b82c981ddabf8a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8675085856520550197, guid: c5a6c1e87faa0fb409b82c981ddabf8a,
         type: 3}
@@ -5698,18 +5519,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 18
-  tileName: 
+  tileName: Tennessee Avenue
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 90
   tileUnmortgage: 99
   tilePrice: 180
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 100
-  hotelCost: 100
+  buildingCost: 100
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 0e0000001c00000046000000c800000026020000ee020000b6030000
 --- !u!4 &1471946679 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5821,7 +5641,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1815554301}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1481269444
+--- !u!114 &1481269443
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5830,9 +5650,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1481269442}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bce98e07e9c9fa643b628afe0df94ef4, type: 3}
+  m_Script: {fileID: 11500000, guid: db2e03e00da6d584dab4145ffb88b3da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tileType: 0
+  tileIndex: 0
+  tileName: Chance 1
+  tileLocation: {x: 0, y: 0, z: 0}
+  _deck: {fileID: 1926889421}
 --- !u!4 &1481269446 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5959,18 +5784,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 27
-  tileName: 
+  tileName: Ventor Avenue
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 130
+  tileUnmortgage: 143
+  tilePrice: 260
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 150
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 160000002c0000006e0000004a01000020030000cf0300007e040000
 --- !u!4 &1502927460 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -6212,11 +6036,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550796341}
   m_LocalRotation: {x: 0.3535534, y: 0.61237246, z: -0.3535534, w: 0.61237246}
-  m_LocalPosition: {x: -400, y: 300, z: 0}
+  m_LocalPosition: {x: -698.6, y: 282, z: 305.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 641060437}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 60, y: 90, z: 0}
 --- !u!1 &1556589600 stripped
 GameObject:
@@ -6238,11 +6062,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 5
-  tileName: 
+  tileName: Reading Railroad
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 100
+  tileUnmortgage: 110
+  tilePrice: 200
   owner: {fileID: 0}
 --- !u!4 &1556589604 stripped
 Transform:
@@ -6367,10 +6191,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 646f15c0bf6cb124aa2fb4f9b5b09b2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 0
+  tileType: 3
   tileIndex: 38
-  tileName: 
+  tileName: Luxury Tax
   tileLocation: {x: 0, y: 0, z: 0}
+  cost: 100
 --- !u!4 &1591941022 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -6476,75 +6301,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
---- !u!1001 &1620129131
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 100018, guid: d9ac32326a56cc94486c0f649b465510, type: 3}
-      propertyPath: m_Name
-      value: Mediaeval Cart
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: d9ac32326a56cc94486c0f649b465510, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 114
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: d9ac32326a56cc94486c0f649b465510, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: d9ac32326a56cc94486c0f649b465510, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -317.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: d9ac32326a56cc94486c0f649b465510, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: d9ac32326a56cc94486c0f649b465510, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: d9ac32326a56cc94486c0f649b465510, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: d9ac32326a56cc94486c0f649b465510, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: d9ac32326a56cc94486c0f649b465510, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: d9ac32326a56cc94486c0f649b465510, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: d9ac32326a56cc94486c0f649b465510, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: d9ac32326a56cc94486c0f649b465510, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: d9ac32326a56cc94486c0f649b465510, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.025
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: d9ac32326a56cc94486c0f649b465510, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.025
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: d9ac32326a56cc94486c0f649b465510, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.025
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d9ac32326a56cc94486c0f649b465510, type: 3}
 --- !u!1 &1655249004
 GameObject:
   m_ObjectHideFlags: 0
@@ -6724,11 +6480,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 12
-  tileName: 
+  tileName: Electric Company
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 75
+  tileUnmortgage: 83
+  tilePrice: 150
   owner: {fileID: 0}
   twoUtilities: 0
 --- !u!4 &1727269762 stripped
@@ -6787,18 +6543,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 19
-  tileName: 
+  tileName: New York Avenue
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 100
+  tileUnmortgage: 110
+  tilePrice: 200
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 100
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 100000002000000050000000dc0000005802000020030000e8030000
 --- !u!4 &1743747951 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -6811,7 +6566,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1407263101}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1774723906
+--- !u!114 &1774723905
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6820,9 +6575,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1774723904}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adba4c081e72b034ba36afbcded84868, type: 3}
+  m_Script: {fileID: 11500000, guid: db2e03e00da6d584dab4145ffb88b3da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tileType: 1
+  tileIndex: 33
+  tileName: Community Chest 3
+  tileLocation: {x: 0, y: 0, z: 0}
+  _deck: {fileID: 1466328732}
 --- !u!4 &1774723908 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -7252,16 +7012,15 @@ MonoBehaviour:
   tileIndex: 1
   tileName: Mediterranian Avenue
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 30
+  tileUnmortgage: 33
+  tilePrice: 60
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 50
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 02000000040000000a0000001e0000005a000000a0000000fa000000
 --- !u!4 &1829891284 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -7542,11 +7301,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1886880754}
   m_LocalRotation: {x: -0.3535534, y: 0.61237246, z: -0.3535534, w: -0.61237246}
-  m_LocalPosition: {x: 400, y: 300, z: 0}
+  m_LocalPosition: {x: 101.399994, y: 282, z: 305.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 641060437}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 60, y: 270, z: 0}
 --- !u!1 &1895787121 stripped
 GameObject:
@@ -7568,18 +7327,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 14
-  tileName: 
+  tileName: Virginia Avenue
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 80
+  tileUnmortgage: 88
+  tilePrice: 160
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 100
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 0c000000180000003c000000b4000000f4010000bc02000084030000
 --- !u!4 &1895787125 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -7636,18 +7394,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 9
-  tileName: 
+  tileName: Connecticut Avenue
   tileLocation: {x: 0, y: 0, z: 0}
-  tileMortgage: 0
-  tileUnmortgage: 0
-  tilePrice: 0
+  tileMortgage: 60
+  tileUnmortgage: 66
+  tilePrice: 120
   owner: {fileID: 0}
   monopoly: 0
-  houseCost: 0
-  hotelCost: 0
+  buildingCost: 50
   houseCount: 0
   hasHotel: 0
-  rentValues: 00000000000000000000000000000000000000000000000000000000
+  rentValues: 080000001000000028000000640000002c010000c201000058020000
 --- !u!4 &1902072140 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -7674,7 +7431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   tileIndex: 15
-  tileName: 
+  tileName: Pennsylvania Railroad
   tileLocation: {x: 0, y: 0, z: 0}
   tileMortgage: 100
   tileUnmortgage: 110
@@ -7835,7 +7592,7 @@ PrefabInstance:
     - target: {fileID: 8675085856520550197, guid: c5a6c1e87faa0fb409b82c981ddabf8a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8675085856520550197, guid: c5a6c1e87faa0fb409b82c981ddabf8a,
         type: 3}
@@ -7874,6 +7631,12 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: c19c51b727441724f923303cc54ad083, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5a6c1e87faa0fb409b82c981ddabf8a, type: 3}
+--- !u!1 &1926889421 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8675085856520550193, guid: c5a6c1e87faa0fb409b82c981ddabf8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1926889420}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1930352020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8003,79 +7766,6 @@ Transform:
   m_Father: {fileID: 447726503}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &2082259588
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 100002, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
-      propertyPath: m_Name
-      value: Monopoly House
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -246.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -268
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a71b049999e88ad48967bf575d2334a9, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c02392d602f556c4cb831a5509c4f2fa, type: 3}
 --- !u!1 &2131169114
 GameObject:
   m_ObjectHideFlags: 0
@@ -8138,12 +7828,12 @@ MonoBehaviour:
   tiles:
   - {fileID: 872310327}
   - {fileID: 1829891281}
-  - {fileID: 0}
+  - {fileID: 875993496}
   - {fileID: 213800549}
   - {fileID: 1048154081}
   - {fileID: 1556589601}
   - {fileID: 563448800}
-  - {fileID: 0}
+  - {fileID: 1481269443}
   - {fileID: 1413267615}
   - {fileID: 1902072137}
   - {fileID: 1289507700}
@@ -8153,12 +7843,12 @@ MonoBehaviour:
   - {fileID: 1895787122}
   - {fileID: 1906529853}
   - {fileID: 770788621}
-  - {fileID: 0}
+  - {fileID: 6973815}
   - {fileID: 1471946676}
   - {fileID: 1743747948}
   - {fileID: 610403036}
   - {fileID: 383535744}
-  - {fileID: 0}
+  - {fileID: 1433633063}
   - {fileID: 614439770}
   - {fileID: 533510905}
   - {fileID: 1118586907}
@@ -8169,10 +7859,10 @@ MonoBehaviour:
   - {fileID: 83077495}
   - {fileID: 1283941990}
   - {fileID: 243332039}
-  - {fileID: 0}
+  - {fileID: 1774723905}
   - {fileID: 573201336}
   - {fileID: 687846042}
-  - {fileID: 0}
+  - {fileID: 1121406340}
   - {fileID: 149529641}
   - {fileID: 1591941019}
   - {fileID: 1002317333}
@@ -8184,8 +7874,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2145341342}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 0.001, y: 2, z: 0.001}
+  m_LocalPosition: {x: 0, y: 0.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 872310330}
   - {fileID: 1829891284}
@@ -8227,6 +7917,6 @@ Transform:
   - {fileID: 149529644}
   - {fileID: 1591941022}
   - {fileID: 1002317336}
-  m_Father: {fileID: 828389302}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

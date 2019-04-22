@@ -5,8 +5,7 @@ using UnityEngine;
 public class RealEstateBehavior : PropertyBehavior
 {
     public bool monopoly;
-    public int houseCost;
-    public int hotelCost;
+    public int buildingCost;
     public int houseCount;
     public bool hasHotel;
     

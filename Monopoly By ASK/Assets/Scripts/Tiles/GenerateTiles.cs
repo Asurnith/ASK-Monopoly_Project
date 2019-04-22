@@ -21,20 +21,11 @@ public class GenerateTiles : MonoBehaviour
 
 
     public Tile[] tiles = new Tile[40];
-
-    public void Generate(Tile[] tiles)
-    {
-        foreach (var tile in tiles)
-        {
-            tile.GenerateBasicTile(tile);
-            tile.tileIndex = Array.IndexOf(tiles, tile);
-        }
-    }
     
     // Start is called before the first frame update
     void Start()
     {
-       Generate(tiles);
+     
     }
 
     // Update is called once per frame
