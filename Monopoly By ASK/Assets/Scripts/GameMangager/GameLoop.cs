@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameLoop : MonoBehaviour
 {
-    [SerializeField] public List<GameObject> _players;
+    [SerializeField] public List<GameObject> players;
     [SerializeField] private GameObject _dice, 
                                         _tileManager;
     
@@ -23,7 +23,7 @@ public class GameLoop : MonoBehaviour
 
     private void Round()
     {
-        foreach (var player in _players)
+        foreach (var player in players)
             Turn(player);
     }
     
@@ -36,5 +36,11 @@ public class GameLoop : MonoBehaviour
 }
 
 //Main Menu 
-// Have a start button that starts the game
-// 
+// Have a start button that starts the game and a quit button (during the game only)
+// Have a list that has the option of adding or subtracting players (Min players -2, Max players -8)
+// Have the option of giving each player a name (OPTIONAL)
+// Add a "RULES" button to accommodate for new players (OPTIONAL)
+
+//What a game should have
+//Main Menu (DONE)
+//
