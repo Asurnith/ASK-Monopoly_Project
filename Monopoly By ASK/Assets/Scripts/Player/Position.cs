@@ -6,11 +6,6 @@ namespace Player
     {
         public int CurrentIndex { get; private set; }
 
-        private void Update()
-        {
-            Debug.Log(CurrentIndex);
-        }
-
         public void MovePlayer(int spaces)
         {
             CurrentIndex += spaces;
