@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO.Compression;
+using Player;
 using UnityEngine;
 
 public class CardBehavior : Tile
