@@ -5,23 +5,21 @@ using UnityEngine;
 
 public static class GameLoop
 {
-    [SerializeField] public static List<GameObject> _players;
-    [SerializeField] private static GameObject _dice;
-
-    [SerializeField] private static GameObject _tileManager;
+    public static List<GameObject> _players;
+    public static int currentPlayer;
+    
+    private static GameObject _tileManager;
 
 
     // Start is called before the first frame update
 
     private static void Round()
     {
-        foreach (var player in _players)
-            Turn(player);
     }
     
-    private static void Turn(GameObject player)
+    public static void Turn(GameObject player, int rollValue)
     {
-        player.GetComponent<Position>().MovePlayer(_dice.GetComponent<Dice>().Roll());
+        player.GetComponent<Position>().MovePlayer(rollValue);
        //Trading and other stuff
     }
 

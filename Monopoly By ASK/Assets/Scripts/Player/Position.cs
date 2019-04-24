@@ -4,7 +4,13 @@ namespace Player
 {
     public class Position : MonoBehaviour
     {
-        public int CurrentIndex { get; set; }
+        public int CurrentIndex { get; private set; }
+
+        private void Update()
+        {
+            Debug.Log(CurrentIndex);
+        }
+
         public void MovePlayer(int spaces)
         {
             CurrentIndex += spaces;

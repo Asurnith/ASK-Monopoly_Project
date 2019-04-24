@@ -9,6 +9,7 @@ public class Deck : MonoBehaviour
 
     private void Start()
     {
+        deck = new Queue<GameObject>();
         for (int i = 0; i < 16; i++)
         {
             int index = Random.Range(0, _deck.Count);
