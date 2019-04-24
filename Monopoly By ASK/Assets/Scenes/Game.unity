@@ -5628,7 +5628,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50b9b530dfedf7b4e82d39f6cb2ecb26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _deck: []
+  _deck:
+  - {fileID: 583780462}
+  - {fileID: 1093204537}
+  - {fileID: 1329208779}
+  - {fileID: 1043349191}
+  - {fileID: 1515777344}
+  - {fileID: 967024244}
+  - {fileID: 114250832}
+  - {fileID: 759063267}
+  - {fileID: 559265947}
+  - {fileID: 832225482}
+  - {fileID: 751804455}
+  - {fileID: 1708867677}
+  - {fileID: 1341847673}
+  - {fileID: 1900087955}
+  - {fileID: 1737697633}
+  - {fileID: 1655249004}
 --- !u!1 &1471946675 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -6083,7 +6099,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1538099267}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -7779,7 +7795,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50b9b530dfedf7b4e82d39f6cb2ecb26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _deck: []
+  _deck:
+  - {fileID: 1277931330}
+  - {fileID: 60741309}
+  - {fileID: 209306390}
+  - {fileID: 1538099267}
+  - {fileID: 229683727}
+  - {fileID: 669734153}
+  - {fileID: 1035066311}
+  - {fileID: 793944236}
+  - {fileID: 414862739}
+  - {fileID: 2032705546}
+  - {fileID: 2131169114}
+  - {fileID: 781680694}
+  - {fileID: 1445420359}
+  - {fileID: 4934489}
+  - {fileID: 42150452}
+  - {fileID: 991791591}
 --- !u!1001 &1930352020
 PrefabInstance:
   m_ObjectHideFlags: 0
