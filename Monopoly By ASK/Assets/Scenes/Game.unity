@@ -641,7 +641,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 247.291, y: -13.692001}
+  m_AnchoredPosition: {x: 14.9, y: -13.692001}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &128116748
@@ -664,7 +664,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 1c62ccaf7f646ca4085cc15925d3640e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1566,8 +1566,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a07ac6c040adb8b45b7814af1f07ddef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dieOne: {fileID: 0}
-  dieTwo: {fileID: 0}
+  dieOne: {fileID: 128116746}
+  dieTwo: {fileID: 773547697}
   _dieFaces:
   - {fileID: 21300000, guid: 1c62ccaf7f646ca4085cc15925d3640e, type: 3}
   - {fileID: 21300006, guid: 1c62ccaf7f646ca4085cc15925d3640e, type: 3}
@@ -1766,7 +1766,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 447726503}
-  - component: {fileID: 447726504}
   m_Layer: 0
   m_Name: 'Community Chest '
   m_TagString: Untagged
@@ -1804,18 +1803,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &447726504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 447726502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adba4c081e72b034ba36afbcded84868, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &458357623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3007,7 +2994,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 247.291, y: -13.692001}
+  m_AnchoredPosition: {x: 484.9, y: -13.692001}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &773547699
@@ -3030,7 +3017,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 1c62ccaf7f646ca4085cc15925d3640e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
