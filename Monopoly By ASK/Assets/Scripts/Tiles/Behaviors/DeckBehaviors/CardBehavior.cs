@@ -105,7 +105,7 @@ public class CardBehavior : Tile
                     player.GetComponent<AmountOfMoney>().Pay(50, otherPlayers);
                 break;
             case "nearestRailRoad" :
-                int index = player.GetComponent<Position>().currentIndex;
+                int index = player.GetComponent<Position>().CurrentIndex;
                 if (35 < index && index < 25)
                     player.GetComponent<Position>().MoveToTile(35, false);
                 else if(25 < index && index < 15)
@@ -116,7 +116,7 @@ public class CardBehavior : Tile
                     player.GetComponent<Position>().MoveToTile(5, false);
                 break;
             case "nearestRailRoadTwo" :
-                int index2 = player.GetComponent<Position>().currentIndex;
+                int index2 = player.GetComponent<Position>().CurrentIndex;
                 if (35 < index2 && index2 < 25)
                     player.GetComponent<Position>().MoveToTile(35, false);
                 else if(25 < index2 && index2 < 15)
@@ -127,7 +127,7 @@ public class CardBehavior : Tile
                     player.GetComponent<Position>().MoveToTile(5, false);
                 break;
             case "nearestUtility" :
-                int index3 = player.GetComponent<Position>().currentIndex;
+                int index3 = player.GetComponent<Position>().CurrentIndex;
                 if (28 < index3 && index3 < 12)
                     player.GetComponent<Position>().MoveToTile(28, false);
                 else

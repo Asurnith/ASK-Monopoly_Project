@@ -164,7 +164,7 @@ MonoBehaviour:
   tileIndex: 17
   tileName: Community Chest 2
   tileLocation: {x: 0, y: 0, z: 0}
-  _deck: {fileID: 1466328732}
+  _deck: {fileID: 1926889421}
 --- !u!4 &6973817 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -3502,7 +3502,7 @@ MonoBehaviour:
   tileIndex: 2
   tileName: Community Chest 1
   tileLocation: {x: 0, y: 0, z: 0}
-  _deck: {fileID: 1466328732}
+  _deck: {fileID: 1926889421}
 --- !u!4 &875993498 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -4387,7 +4387,7 @@ MonoBehaviour:
   tileIndex: 36
   tileName: Chance 3
   tileLocation: {x: 0, y: 0, z: 0}
-  _deck: {fileID: 1926889421}
+  _deck: {fileID: 1466328732}
 --- !u!4 &1121406342 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5440,7 +5440,7 @@ MonoBehaviour:
   tileIndex: 22
   tileName: Chance 2
   tileLocation: {x: 0, y: 0, z: 0}
-  _deck: {fileID: 1926889421}
+  _deck: {fileID: 1466328732}
 --- !u!4 &1433633065 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -5531,12 +5531,12 @@ PrefabInstance:
     - target: {fileID: 8675085856520550193, guid: c5a6c1e87faa0fb409b82c981ddabf8a,
         type: 3}
       propertyPath: m_Name
-      value: Community Deck
+      value: Chance Deck
       objectReference: {fileID: 0}
     - target: {fileID: 8675085856520550197, guid: c5a6c1e87faa0fb409b82c981ddabf8a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 158
+      value: 157.8
       objectReference: {fileID: 0}
     - target: {fileID: 8675085856520550197, guid: c5a6c1e87faa0fb409b82c981ddabf8a,
         type: 3}
@@ -5546,7 +5546,7 @@ PrefabInstance:
     - target: {fileID: 8675085856520550197, guid: c5a6c1e87faa0fb409b82c981ddabf8a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -158
+      value: -159.7
       objectReference: {fileID: 0}
     - target: {fileID: 8675085856520550197, guid: c5a6c1e87faa0fb409b82c981ddabf8a,
         type: 3}
@@ -5787,7 +5787,7 @@ MonoBehaviour:
   tileIndex: 0
   tileName: Chance 1
   tileLocation: {x: 0, y: 0, z: 0}
-  _deck: {fileID: 1926889421}
+  _deck: {fileID: 1466328732}
 --- !u!4 &1481269446 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -6712,7 +6712,7 @@ MonoBehaviour:
   tileIndex: 33
   tileName: Community Chest 3
   tileLocation: {x: 0, y: 0, z: 0}
-  _deck: {fileID: 1466328732}
+  _deck: {fileID: 1926889421}
 --- !u!4 &1774723908 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -7682,12 +7682,12 @@ PrefabInstance:
     - target: {fileID: 8675085856520550193, guid: c5a6c1e87faa0fb409b82c981ddabf8a,
         type: 3}
       propertyPath: m_Name
-      value: Chance Deck
+      value: 'Community Chest '
       objectReference: {fileID: 0}
     - target: {fileID: 8675085856520550197, guid: c5a6c1e87faa0fb409b82c981ddabf8a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -158.4
+      value: -157
       objectReference: {fileID: 0}
     - target: {fileID: 8675085856520550197, guid: c5a6c1e87faa0fb409b82c981ddabf8a,
         type: 3}
@@ -7697,7 +7697,7 @@ PrefabInstance:
     - target: {fileID: 8675085856520550197, guid: c5a6c1e87faa0fb409b82c981ddabf8a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 158.4
+      value: 158
       objectReference: {fileID: 0}
     - target: {fileID: 8675085856520550197, guid: c5a6c1e87faa0fb409b82c981ddabf8a,
         type: 3}
