@@ -10,6 +10,7 @@ namespace Player
         {
             CurrentIndex += spaces;
             CheckGo(false);
+            GameLoop.CheckTileEffect(gameObject);
         }
 
         public void MoveToTile(int tile, bool doNotPassGo)
