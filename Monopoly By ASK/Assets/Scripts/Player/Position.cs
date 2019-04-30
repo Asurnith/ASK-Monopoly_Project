@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 namespace Player
 {
@@ -8,12 +9,21 @@ namespace Player
         [SerializeField] private GameObject tileManager;
         public int CurrentIndex { get; private set; }
 
+        private IEnumerator MoveAnim(int spaces)
+        {
+            for (int i = 0; i < spaces; ++i)
+            {
+                CurrentIndex++;
+                CheckGo(false);
+                this.transform.position = tileManager.GetComponent<GenerateTiles>().tiles[CurrentIndex].tileLocation;
+                yield return new WaitForSeconds(0.75f);
+            }
+            GameLoop.CheckTileEffect(gameObject);
+        }
+
         public void MovePlayer(int spaces)
         {
-            CurrentIndex += spaces;
-            CheckGo(false);
-            this.transform.position = tileManager.GetComponent<GenerateTiles>().tiles[CurrentIndex].tileLocation;
-            GameLoop.CheckTileEffect(gameObject);
+            StartCoroutine(MoveAnim(spaces));
         }
 
         public void MoveToTile(int tile, bool doNotPassGo)
