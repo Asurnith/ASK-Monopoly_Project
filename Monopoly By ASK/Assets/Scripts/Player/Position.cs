@@ -4,12 +4,15 @@ namespace Player
 {
     public class Position : MonoBehaviour
     {
+
+        [SerializeField] private GameObject tileManager;
         public int CurrentIndex { get; private set; }
 
         public void MovePlayer(int spaces)
         {
             CurrentIndex += spaces;
             CheckGo(false);
+            this.transform.position = tileManager.GetComponent<GenerateTiles>().tiles[CurrentIndex].tileLocation;
             GameLoop.CheckTileEffect(gameObject);
         }
 

@@ -6,7 +6,7 @@ using UnityEngine.Experimental.Audio.Google;
 
 public class GenerateTiles : MonoBehaviour
 {
-
+    
     public enum TileType
     {
         Property,
@@ -15,24 +15,11 @@ public class GenerateTiles : MonoBehaviour
         Tax,
         FreeParking,
         Go,
-        GoToJail,
+        GoToJail,    
         Jail
     }
 
 
-    public Tile[] tiles = new Tile[40];
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-     
-    }
+    public Tile[] tiles = new Tile[41];
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-   
 }

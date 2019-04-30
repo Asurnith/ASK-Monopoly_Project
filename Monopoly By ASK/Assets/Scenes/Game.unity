@@ -163,7 +163,7 @@ MonoBehaviour:
   tileType: 1
   tileIndex: 17
   tileName: Community Chest 2
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -304.5, y: 0, z: 114.5}
   _deck: {fileID: 1926889421}
 --- !u!4 &6973817 stripped
 Transform:
@@ -196,7 +196,7 @@ PrefabInstance:
     - target: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
         type: 3}
@@ -331,88 +331,6 @@ Transform:
   m_Father: {fileID: 447726503}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &74446824
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 74446827}
-  - component: {fileID: 74446826}
-  - component: {fileID: 74446825}
-  m_Layer: 0
-  m_Name: Side (2) Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &74446825
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 74446824}
-  m_Enabled: 1
---- !u!20 &74446826
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 74446824}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &74446827
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 74446824}
-  m_LocalRotation: {x: -0, y: 0.8660254, z: -0.5, w: 0}
-  m_LocalPosition: {x: -298.6, y: 282, z: 705.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 641060437}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 60, y: 180, z: 0}
 --- !u!1 &83077494 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2553669523630655510, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
@@ -434,7 +352,7 @@ MonoBehaviour:
   tileType: 6
   tileIndex: 30
   tileName: Go To Jail
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 304.5, y: 0, z: 304.5}
 --- !u!4 &83077499 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
@@ -462,7 +380,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 26
   tileName: Atlantic Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 57.25, y: 0, z: 304.5}
   tileMortgage: 130
   tileUnmortgage: 143
   tilePrice: 260
@@ -805,7 +723,7 @@ PrefabInstance:
     - target: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
         type: 3}
@@ -887,6 +805,16 @@ PrefabInstance:
       propertyPath: tileName
       value: Just Visiting
       objectReference: {fileID: 0}
+    - target: {fileID: 922293671363831735, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
+        type: 3}
+      propertyPath: tileLocation.x
+      value: -304.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 922293671363831735, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
+        type: 3}
+      propertyPath: tileLocation.z
+      value: -304.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab, type: 3}
 --- !u!4 &143232916 stripped
@@ -916,7 +844,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 37
   tileName: Park Place
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 304.5, y: 0, z: -114.5}
   tileMortgage: 175
   tileUnmortgage: 193
   tilePrice: 350
@@ -1181,7 +1109,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 3
   tileName: Baltic Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 114.5, y: 0, z: -304.5}
   tileMortgage: 30
   tileUnmortgage: 33
   tilePrice: 60
@@ -1347,7 +1275,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 32
   tileName: North Carolina Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 304.5, y: 0, z: 172}
   tileMortgage: 150
   tileUnmortgage: 165
   tilePrice: 300
@@ -1612,7 +1540,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 21
   tileName: Kentucky Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -229.25, y: 0, z: 304.5}
   tileMortgage: 110
   tileUnmortgage: 121
   tilePrice: 220
@@ -1767,7 +1695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 447726503}
   m_Layer: 0
-  m_Name: 'Community Chest '
+  m_Name: Community Chest Cards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1801,7 +1729,7 @@ Transform:
   - {fileID: 42150453}
   - {fileID: 991791592}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &458357623
 PrefabInstance:
@@ -2022,7 +1950,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 24
   tileName: Illinois Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -57.25, y: 0, z: 304.5}
   tileMortgage: 120
   tileUnmortgage: 132
   tilePrice: 240
@@ -2089,7 +2017,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 6
   tileName: Oriental Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -57.25, y: 0, z: -304.5}
   tileMortgage: 50
   tileUnmortgage: 55
   tilePrice: 100
@@ -2126,7 +2054,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 34
   tileName: Pennsylvania Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 304.5, y: 0, z: 57.25}
   tileMortgage: 160
   tileUnmortgage: 176
   tilePrice: 320
@@ -2193,7 +2121,7 @@ MonoBehaviour:
   tileType: 4
   tileIndex: 20
   tileName: Free Parking
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -304.5, y: 0, z: 304.5}
 --- !u!4 &610403040 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
@@ -2221,7 +2149,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 23
   tileName: Indiana Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -114.5, y: 0, z: 304.5}
   tileMortgage: 110
   tileUnmortgage: 121
   tilePrice: 220
@@ -2483,6 +2411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87b14da0c2817a4db8fa096ddb44bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tileManager: {fileID: 2145341342}
 --- !u!114 &638664483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2567,41 +2496,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &641060436
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 641060437}
-  m_Layer: 0
-  m_Name: Cameras
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &641060437
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641060436}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 298.6, y: 18, z: -305.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 965850006}
-  - {fileID: 887513854}
-  - {fileID: 1550796344}
-  - {fileID: 74446827}
-  - {fileID: 1886880757}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &644639544
 PrefabInstance:
@@ -2753,7 +2647,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 35
   tileName: Short Line
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 304.5, y: 0, z: 0}
   tileMortgage: 100
   tileUnmortgage: 110
   tilePrice: 200
@@ -2944,7 +2838,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 16
   tileName: St. James Place
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -304.5, y: 0, z: 57.25}
   tileMortgage: 90
   tileUnmortgage: 99
   tilePrice: 180
@@ -3286,7 +3180,7 @@ PrefabInstance:
     - target: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
         type: 3}
@@ -3481,7 +3375,7 @@ MonoBehaviour:
   tileType: 5
   tileIndex: 0
   tileName: Go
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 304.5, y: 0, z: -304.5}
 --- !u!4 &872310330 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
@@ -3509,7 +3403,7 @@ MonoBehaviour:
   tileType: 1
   tileIndex: 2
   tileName: Community Chest 1
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 172, y: 0, z: -304.5}
   _deck: {fileID: 1926889421}
 --- !u!4 &875993498 stripped
 Transform:
@@ -3538,7 +3432,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 13
   tileName: States Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -304.5, y: 0, z: -114.5}
   tileMortgage: 70
   tileUnmortgage: 77
   tilePrice: 140
@@ -3554,88 +3448,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 644639544}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &887513851
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 887513854}
-  - component: {fileID: 887513853}
-  - component: {fileID: 887513852}
-  m_Layer: 0
-  m_Name: Side Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &887513852
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 887513851}
-  m_Enabled: 1
---- !u!20 &887513853
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 887513851}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &887513854
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 887513851}
-  m_LocalRotation: {x: 0.5, y: -0, z: -0, w: 0.8660254}
-  m_LocalPosition: {x: -298.6, y: 282, z: -94.399994}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 641060437}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
 --- !u!1001 &893749427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3756,7 +3568,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 28
   tileName: Water Works
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 172, y: 0, z: 304.5}
   tileMortgage: 75
   tileUnmortgage: 83
   tilePrice: 150
@@ -3806,7 +3618,7 @@ Transform:
   - {fileID: 1737697634}
   - {fileID: 1655249005}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &959337318
 GameObject:
@@ -4062,11 +3874,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965850003}
   m_LocalRotation: {x: 0.5735764, y: -0, z: -0, w: 0.8191521}
-  m_LocalPosition: {x: -298.6, y: 728.78, z: -110.399994}
+  m_LocalPosition: {x: 0, y: 746.78, z: -416}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 641060437}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 70, y: 0, z: 0}
 --- !u!1 &967024244
 GameObject:
@@ -4215,7 +4027,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 39
   tileName: Board Walk
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 304.5, y: 0, z: -229.25}
   tileMortgage: 200
   tileUnmortgage: 220
   tilePrice: 400
@@ -4411,7 +4223,7 @@ MonoBehaviour:
   tileType: 3
   tileIndex: 4
   tileName: Income Tax
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 57.25, y: 0, z: -304.5}
   cost: 200
 --- !u!4 &1048154084 stripped
 Transform:
@@ -4440,7 +4252,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 11
   tileName: St. Charles Place
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -304.5, y: 0, z: -229.25}
   tileMortgage: 70
   tileUnmortgage: 77
   tilePrice: 140
@@ -4507,7 +4319,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 25
   tileName: B. & O. Railroad
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 0, y: 0, z: 304.5}
   tileMortgage: 100
   tileUnmortgage: 110
   tilePrice: 200
@@ -4539,7 +4351,7 @@ MonoBehaviour:
   tileType: 2
   tileIndex: 36
   tileName: Chance 3
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 304.5, y: 0, z: -57.25}
   _deck: {fileID: 1466328732}
 --- !u!4 &1121406342 stripped
 Transform:
@@ -4572,7 +4384,7 @@ PrefabInstance:
     - target: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
         type: 3}
@@ -4901,7 +4713,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 31
   tileName: Pacific Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 304.5, y: 0, z: 229.25}
   tileMortgage: 150
   tileUnmortgage: 165
   tilePrice: 300
@@ -4938,7 +4750,7 @@ MonoBehaviour:
   tileType: 7
   tileIndex: 999
   tileName: Jail
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -304.5, y: 0, z: -304.5}
 --- !u!4 &1289507704 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3312184839387575784, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
@@ -4966,7 +4778,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 29
   tileName: Marvin Gardens
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 229.25, y: 0, z: 304.5}
   tileMortgage: 140
   tileUnmortgage: 154
   tilePrice: 280
@@ -5555,7 +5367,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 8
   tileName: Vermont Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -172, y: 0, z: -304.5}
   tileMortgage: 50
   tileUnmortgage: 55
   tilePrice: 100
@@ -5592,7 +5404,7 @@ MonoBehaviour:
   tileType: 2
   tileIndex: 22
   tileName: Chance 2
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -172, y: 0, z: 304.5}
   _deck: {fileID: 1466328732}
 --- !u!4 &1433633065 stripped
 Transform:
@@ -5820,7 +5632,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 18
   tileName: Tennessee Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -304.5, y: 0, z: 172}
   tileMortgage: 90
   tileUnmortgage: 99
   tilePrice: 180
@@ -5956,7 +5768,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 0
   tileName: Chance 1
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -114.5, y: 0, z: -304.5}
   _deck: {fileID: 1466328732}
 --- !u!4 &1481269446 stripped
 Transform:
@@ -6214,7 +6026,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 27
   tileName: Ventor Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 114.5, y: 0, z: 304.5}
   tileMortgage: 130
   tileUnmortgage: 143
   tilePrice: 260
@@ -6389,88 +6201,6 @@ Transform:
   m_Father: {fileID: 447726503}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1550796341
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1550796344}
-  - component: {fileID: 1550796343}
-  - component: {fileID: 1550796342}
-  m_Layer: 0
-  m_Name: Side (1) Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &1550796342
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1550796341}
-  m_Enabled: 1
---- !u!20 &1550796343
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1550796341}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &1550796344
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1550796341}
-  m_LocalRotation: {x: 0.3535534, y: 0.61237246, z: -0.3535534, w: 0.61237246}
-  m_LocalPosition: {x: -698.6, y: 282, z: 305.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 641060437}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 60, y: 90, z: 0}
 --- !u!1 &1556589600 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -6492,7 +6222,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 5
   tileName: Reading Railroad
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 0, y: 0, z: -304.5}
   tileMortgage: 100
   tileUnmortgage: 110
   tilePrice: 200
@@ -6623,7 +6353,7 @@ MonoBehaviour:
   tileType: 3
   tileIndex: 38
   tileName: Luxury Tax
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 304.5, y: 0, z: -172}
   cost: 100
 --- !u!4 &1591941022 stripped
 Transform:
@@ -6910,7 +6640,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 12
   tileName: Electric Company
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -304.5, y: 0, z: -172}
   tileMortgage: 75
   tileUnmortgage: 83
   tilePrice: 150
@@ -6973,7 +6703,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 19
   tileName: New York Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -304.5, y: 0, z: 229.25}
   tileMortgage: 100
   tileUnmortgage: 110
   tilePrice: 200
@@ -7010,7 +6740,7 @@ MonoBehaviour:
   tileType: 1
   tileIndex: 33
   tileName: Community Chest 3
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 304.5, y: 0, z: 114.5}
   _deck: {fileID: 1926889421}
 --- !u!4 &1774723908 stripped
 Transform:
@@ -7440,7 +7170,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 1
   tileName: Mediterranian Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: 229.25, y: 0, z: -304.5}
   tileMortgage: 30
   tileUnmortgage: 33
   tilePrice: 60
@@ -7654,88 +7384,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea54c16e04cfedb4993fc4ac0cf8a48a, type: 3}
---- !u!1 &1886880754
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1886880757}
-  - component: {fileID: 1886880756}
-  - component: {fileID: 1886880755}
-  m_Layer: 0
-  m_Name: Side (3) Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &1886880755
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886880754}
-  m_Enabled: 1
---- !u!20 &1886880756
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886880754}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &1886880757
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886880754}
-  m_LocalRotation: {x: -0.3535534, y: 0.61237246, z: -0.3535534, w: -0.61237246}
-  m_LocalPosition: {x: 101.399994, y: 282, z: 305.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 641060437}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 60, y: 270, z: 0}
 --- !u!1 &1895787121 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -7757,7 +7405,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 14
   tileName: Virginia Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -304.5, y: 0, z: -57.25}
   tileMortgage: 80
   tileUnmortgage: 88
   tilePrice: 160
@@ -7824,7 +7472,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 9
   tileName: Connecticut Avenue
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -229.25, y: 0, z: -304.5}
   tileMortgage: 60
   tileUnmortgage: 66
   tilePrice: 120
@@ -7861,7 +7509,7 @@ MonoBehaviour:
   tileType: 0
   tileIndex: 15
   tileName: Pennsylvania Railroad
-  tileLocation: {x: 0, y: 0, z: 0}
+  tileLocation: {x: -304.5, y: 0, z: 0}
   tileMortgage: 100
   tileUnmortgage: 110
   tilePrice: 200

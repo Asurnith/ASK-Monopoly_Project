@@ -16,14 +16,4 @@ public abstract class Tile : MonoBehaviour
 
     public abstract void TileEffect(GameObject player);
 
-    public void GenerateBasicTile(Tile tile)
-    {
-        tileName = name;
-        tileLocation = transform.position;
-        tileType = (GenerateTiles.TileType) Enum.Parse(typeof(GenerateTiles.TileType), tag);
-
-    }
-    
-    
-
 }
