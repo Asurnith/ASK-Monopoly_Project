@@ -1,10 +1,33 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+
+    private int _totalPlayers = 1;
+
+    public void _addPlayer()
+    {
+        _totalPlayers++;
+    }
+
+    public void _removePlayer()
+    {
+        _totalPlayers--;
+    }
+
+    public void genPlayers(int totalPlayers, String name)
+    {
+
+        for (int i = 0; i < totalPlayers; ++i)
+        {
+            GameManager.players.Add(new GameObject(name));
+        }
+        
+    }
 
     public void PlayGame()
     {

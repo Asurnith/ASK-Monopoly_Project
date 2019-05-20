@@ -18,7 +18,7 @@ namespace Player
                 this.transform.position = tileManager.GetComponent<GenerateTiles>().tiles[CurrentIndex].tileLocation;
                 yield return new WaitForSeconds(0.75f);
             }
-            GameLoop.CheckTileEffect(gameObject);
+            GameManager.CheckTileEffect(gameObject);
         }
 
         public void MovePlayer(int spaces)
@@ -33,7 +33,7 @@ namespace Player
             else
                 CurrentIndex = tile;
             CheckGo(doNotPassGo);
-            GameLoop.CheckTileEffect(gameObject);
+        GameManager.CheckTileEffect(gameObject);
         }
 
         private void CheckGo(bool doNotPassGo)

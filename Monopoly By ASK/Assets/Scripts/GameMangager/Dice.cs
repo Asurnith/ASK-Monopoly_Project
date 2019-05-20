@@ -9,6 +9,7 @@ public class Dice : MonoBehaviour
     private int _diceOneValue, _diceTwoValue;
     [SerializeField] private GameObject dieOne, dieTwo;
     [SerializeField] private List<Sprite> _dieFaces;
+    
 
     public void Roll()
     {
@@ -27,6 +28,6 @@ public class Dice : MonoBehaviour
         }
 
         _totalValue = _diceOneValue + _diceTwoValue;
-        GameLoop.Turn(GameLoop._players[GameLoop.currentPlayer], _totalValue);
+        GameManager.Turn(GameManager.players[GameManager.currentPlayer], _totalValue);
     }
 }
