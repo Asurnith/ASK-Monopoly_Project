@@ -5,24 +5,23 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
-{
+{    
+    private List<String> names;
 
-    private int _totalPlayers = 1;
-
-    public void _addPlayer()
+    public void _addPlayer(String name)
     {
-        _totalPlayers++;
+        names.Add(name);
     }
 
-    public void _removePlayer()
+    public void _removePlayer(String name)
     {
-        _totalPlayers--;
+        names.Remove(name);
     }
 
     public void genPlayers(int totalPlayers, String name)
     {
 
-        for (int i = 0; i < totalPlayers; ++i)
+        for (int i = 0; i < names.Count; ++i)
         {
             GameManager.players.Add(new GameObject(name));
         }

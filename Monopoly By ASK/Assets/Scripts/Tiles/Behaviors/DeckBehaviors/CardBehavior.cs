@@ -13,7 +13,7 @@ public class CardBehavior : Tile
         
         switch (card.GetComponent<Transform>().name)
         {
-            case "consultancyFee":
+            case "consultancyFee": 
                 player.GetComponent<AmountOfMoney>().ChangeBalence(25);
                 break;
             case "streetRepairs":
