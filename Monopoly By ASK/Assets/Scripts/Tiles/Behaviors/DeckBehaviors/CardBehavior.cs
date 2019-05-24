@@ -17,7 +17,23 @@ public class CardBehavior : Tile
                 player.GetComponent<AmountOfMoney>().ChangeBalence(25);
                 break;
             case "streetRepairs":
-                //wait for house system, houses owned x 40, hotels owned x 115
+                for (var i = 0; i < GetComponent<DeedsOwned>().propertiesOwned.Count; i++)
+                {
+                    int houseCount = GetComponent<RealEstateBehavior>().houseCount;
+                    bool hotel = GetComponent<RealEstateBehavior>().hasHotel;
+                    int streetRepairs = houseCount * 40;
+                    if (hotel)
+                    {
+                       int streetRepairFee = streetRepairs + 115;
+                       player.GetComponent<AmountOfMoney>().ChangeBalence(-streetRepairFee);
+                    }
+                    else
+                    {
+                       player.GetComponent<AmountOfMoney>().ChangeBalence(-streetRepairs);
+                    }
+                }
+                
+                // houses owned x 40, hotels owned x 115
                 break;
             case "schoolFee":
                 player.GetComponent<AmountOfMoney>().ChangeBalence(-50);
@@ -80,7 +96,24 @@ public class CardBehavior : Tile
                 player.GetComponent<Position>().MoveToTile(0, false);
                 break; 
             case "generalPropertyRepairs" :
-                //house system, houses owned x 25, hotels owned x 100
+                for (var i = 0; i < GetComponent<DeedsOwned>().propertiesOwned.Count; i++)
+                {
+                    int houseCounter = GetComponent<RealEstateBehavior>().houseCount;
+                    bool hotels = GetComponent<RealEstateBehavior>().hasHotel;
+                    int propertyRepair = houseCounter * 25;
+                    if (hotels)
+                    {
+                        int propertyRepairFee = propertyRepair + 100; 
+                        player.GetComponent<AmountOfMoney>().ChangeBalence(-propertyRepairFee);
+                    }
+                    else
+                    {
+                        player.GetComponent<AmountOfMoney>().ChangeBalence(-propertyRepair);
+                    }
+                }
+                
+                
+                //houses owned x 25, hotels owned x 100
                 break;
             case "getOutOfJailTwo" :
                 player.GetComponent<DeedsOwned>().getOutOfJailCards++;
