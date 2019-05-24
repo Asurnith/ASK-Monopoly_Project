@@ -1,12 +1,11 @@
 ﻿using UnityEngine;
 
-namespace Player
-{
-    public class AmountOfMoney : MonoBehaviour
-    {
-        [SerializeField] private int[] _totalBills;
 
-        private int[] _billDenominations = new int[]
+    public class AmountOfMoney : Player
+    {
+        
+
+        private readonly int[] _billDenominations = new int[]
         {
             500,
             100,
@@ -17,32 +16,19 @@ namespace Player
             1
         };
     
-        public int totalMoney
+        private int TotalMoney
         {
             get { return CalculateMoney(); }
             set { SplitMoney(value); }
         }
 
-        // Start is called before the first frame update
-        void Start()
-        {
-            _totalBills = new int[]
-            {
-                2,
-                4,
-                1,
-                1,
-                2,
-                1,
-                5
-            };     
-        }
+        
 
         private int CalculateMoney()
         {
-            int total = 0;
+            var total = 0;
         
-            for (int i = 0; i < 7; i++)
+            for (var i = 0; i < 7; i++)
                 total += _totalBills[i] * _billDenominations[i];
         
             return total;
@@ -50,7 +36,7 @@ namespace Player
 
         private void SplitMoney(int value)
         {
-            for (int i = 0; i < 7; i++)
+            for (var i = 0; i < 7; i++)
             {
                 while (value >= _billDenominations[i])
                 {
@@ -60,15 +46,15 @@ namespace Player
             }      
         }
 
-        public void ChangeBalence(int value)
+        public void ChangeBalance(int value)
         {
-            totalMoney = value;
+            TotalMoney = value;
         }
 
         public void Pay(int value, GameObject player)
         {
-            ChangeBalence(-value);
-            player.GetComponent<AmountOfMoney>().ChangeBalence(value);
+            ChangeBalance(-value);
+            player.GetComponent<AmountOfMoney>().ChangeBalance(value);
         }
     }
-}
+

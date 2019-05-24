@@ -1,17 +1,12 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-namespace Player
-{
-    public class Position : MonoBehaviour
+    public class Position : Player
     {
-
-        [SerializeField] private GameObject tileManager;
-        public int CurrentIndex { get; private set; }
 
         private IEnumerator MoveAnim(int spaces)
         {
-            for (int i = 0; i < spaces; ++i)
+            for (var i = 0; i < spaces; ++i)
             {
                 CurrentIndex++;
                 CheckGo(false);
@@ -39,9 +34,8 @@ namespace Player
         private void CheckGo(bool doNotPassGo)
         {
             if (CurrentIndex >= 40 && !doNotPassGo )
-                GetComponent<AmountOfMoney>().ChangeBalence(200);
+                GetComponent<AmountOfMoney>().ChangeBalance(200);
             if(CurrentIndex != 999)
                 CurrentIndex %= 40;
         }
     }
-}
