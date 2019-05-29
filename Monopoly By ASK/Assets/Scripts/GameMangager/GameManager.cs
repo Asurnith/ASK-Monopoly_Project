@@ -1,12 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Player;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] public static List<GameObject> players;
-    private static GameObject _tileManager;
+    [SerializeField] private static GameObject _tileManager;
     
     public static int currentPlayer;
     private static void Round()
@@ -24,13 +23,5 @@ public class GameManager : MonoBehaviour
         _tileManager.GetComponent<GenerateTiles>().tiles[player.GetComponent<Position>().CurrentIndex].TileEffect(player);
     }
     
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
+    
 }

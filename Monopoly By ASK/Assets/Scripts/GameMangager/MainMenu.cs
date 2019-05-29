@@ -6,19 +6,24 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {    
+    [SerializeField] private GameObject[] inputFields = new GameObject[8];
     private List<String> names;
 
-    public void _addPlayer(String name)
+    private int totalPlayers = 2;
+
+    public void getPlayerCount(GameObject[] inputFields)
     {
-        names.Add(name);
+        foreach (var inputField in inputFields)
+        {
+            if (inputField.GetComponent(GameObject.SetActive(true)))
+            {
+                
+                
+            }
+        }
     }
 
-    public void _removePlayer(String name)
-    {
-        names.Remove(name);
-    }
-
-    public void genPlayers(int totalPlayers, String name)
+    public void genNameList(int totalPlayers, String name)
     {
 
         for (int i = 0; i < names.Count; ++i)

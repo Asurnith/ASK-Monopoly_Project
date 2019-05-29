@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Player;
 using UnityEngine;
 
 public class CardBehavior : Tile
@@ -14,7 +13,7 @@ public class CardBehavior : Tile
         switch (card.GetComponent<Transform>().name)
         {
             case "consultancyFee": 
-                player.GetComponent<AmountOfMoney>().ChangeBalence(25);
+                player.GetComponent<AmountOfMoney>().ChangeBalance(25);
                 break;
             case "streetRepairs":
                 for (var i = 0; i < GetComponent<DeedsOwned>().propertiesOwned.Count; i++)
@@ -36,16 +35,16 @@ public class CardBehavior : Tile
                 // houses owned x 40, hotels owned x 115
                 break;
             case "schoolFee":
-                player.GetComponent<AmountOfMoney>().ChangeBalence(-50);
+                player.GetComponent<AmountOfMoney>().ChangeBalance(-50);
                 break;
             case "getOutOfJail":
                 player.GetComponent<DeedsOwned>().getOutOfJailCards++;   
                 break;
             case "lifeInsuranceMature":
-                player.GetComponent<AmountOfMoney>().ChangeBalence(100);
+                player.GetComponent<AmountOfMoney>().ChangeBalance(100);
                 break;
             case "wonBeautyContest":
-                player.GetComponent<AmountOfMoney>().ChangeBalence(10);
+                player.GetComponent<AmountOfMoney>().ChangeBalance(10);
                 break;
             case "birthdayGift":
                 foreach (var otherPLayers in GameManager.players)
@@ -54,40 +53,40 @@ public class CardBehavior : Tile
                 }
                 break;
             case "incomeTaxRefund":
-                player.GetComponent<AmountOfMoney>().ChangeBalence(20);
+                player.GetComponent<AmountOfMoney>().ChangeBalance(20);
                 break;
             case "doctorsFee":
-                player.GetComponent<AmountOfMoney>().ChangeBalence(-50);
+                player.GetComponent<AmountOfMoney>().ChangeBalance(-50);
                 break;
             case "goToJail" :
                 player.GetComponent<Position>().MoveToTile(-1, true);
                 break;
             case "stocks" :
-                player.GetComponent<AmountOfMoney>().ChangeBalence(50);
+                player.GetComponent<AmountOfMoney>().ChangeBalance(50);
                 break;
             case "Go" :
                 player.GetComponent<Position>().MoveToTile(0, false);
                 break;
             case "holidayFundMature" :
-                player.GetComponent<AmountOfMoney>().ChangeBalence(100);
+                player.GetComponent<AmountOfMoney>().ChangeBalance(100);
                 break; 
             case "inherit" :
-                player.GetComponent<AmountOfMoney>().ChangeBalence(100);
+                player.GetComponent<AmountOfMoney>().ChangeBalance(100);
                 break;
             case "bankError" :
-                player.GetComponent<AmountOfMoney>().ChangeBalence(200);
+                player.GetComponent<AmountOfMoney>().ChangeBalance(200);
                 break; 
             case "hospitalFee" :
-                player.GetComponent<AmountOfMoney>().ChangeBalence(-100);
+                player.GetComponent<AmountOfMoney>().ChangeBalance(-100);
                 break;
             case "goToJailTwo" :
                 player.GetComponent<Position>().MoveToTile(-1, true);
                 break;
             case "buildingLoanMature" :
-                player.GetComponent<AmountOfMoney>().ChangeBalence(150);
+                player.GetComponent<AmountOfMoney>().ChangeBalance(150);
                 break;
             case "payedByBank" :
-                player.GetComponent<AmountOfMoney>().ChangeBalence(50);
+                player.GetComponent<AmountOfMoney>().ChangeBalance(50);
                 break; 
             case "boardWalk" :
                 player.GetComponent<Position>().MoveToTile(39,false );
@@ -128,7 +127,7 @@ public class CardBehavior : Tile
                 player.GetComponent<Position>().MovePlayer(-3);
                 break;
             case "speeding" :
-                player.GetComponent<AmountOfMoney>().ChangeBalence(-15);
+                player.GetComponent<AmountOfMoney>().ChangeBalance(-15);
                 break;
             case "readingRailRoad" :
                 player.GetComponent<Position>().MoveToTile(5, false);
