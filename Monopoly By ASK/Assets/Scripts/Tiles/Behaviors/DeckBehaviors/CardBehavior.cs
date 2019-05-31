@@ -24,11 +24,11 @@ public class CardBehavior : Tile
                     if (hotel)
                     {
                        int streetRepairFee = streetRepairs + 115;
-                       player.GetComponent<AmountOfMoney>().ChangeBalence(-streetRepairFee);
+                       player.GetComponent<AmountOfMoney>().ChangeBalance(-streetRepairFee);
                     }
                     else
                     {
-                       player.GetComponent<AmountOfMoney>().ChangeBalence(-streetRepairs);
+                       player.GetComponent<AmountOfMoney>().ChangeBalance(-streetRepairs);
                     }
                 }
                 
@@ -103,11 +103,11 @@ public class CardBehavior : Tile
                     if (hotels)
                     {
                         int propertyRepairFee = propertyRepair + 100; 
-                        player.GetComponent<AmountOfMoney>().ChangeBalence(-propertyRepairFee);
+                        player.GetComponent<AmountOfMoney>().ChangeBalance(-propertyRepairFee);
                     }
                     else
                     {
-                        player.GetComponent<AmountOfMoney>().ChangeBalence(-propertyRepair);
+                        player.GetComponent<AmountOfMoney>().ChangeBalance(-propertyRepair);
                     }
                 }
                 
