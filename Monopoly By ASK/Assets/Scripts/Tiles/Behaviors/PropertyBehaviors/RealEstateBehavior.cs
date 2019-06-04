@@ -17,6 +17,11 @@ public class RealEstateBehavior : PropertyBehavior
         
     }
 
+    protected override void PurchaseTile(Player player)
+    {
+        player.ChangeBalance
+    }
+
     protected override int CaluclateRent()
     {
         return rentValues[(monopoly ? 1 : 0) + houseCount + (hasHotel ? 1 : 0)];
