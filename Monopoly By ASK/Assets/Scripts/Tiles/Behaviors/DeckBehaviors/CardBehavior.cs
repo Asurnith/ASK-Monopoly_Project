@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
-/*
+
 public class CardBehavior : Tile
 {
     [SerializeField] private GameObject _deck;
@@ -135,8 +135,8 @@ public class CardBehavior : Tile
                 break;
             case "electedChairMan" :
                 
-                foreach (var otherPlayers in _playerManager.players)
-                    player.GetComponent<AmountOfMoney>().Pay(50, otherPlayers);
+                foreach (var otherPlayer in _playerManager.players)
+                    player.GetComponent<AmountOfMoney>().Pay(50, otherPlayer);
                 break;
             case "nearestRailRoad" :
                 int index = player.GetComponent<Position>().CurrentIndex;
@@ -181,4 +181,3 @@ public class CardBehavior : Tile
     
 }
 
-*/

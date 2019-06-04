@@ -52,7 +52,7 @@
             TotalMoney = value;
         }
 
-        public void Pay(int value, GameObject player)
+        public void Pay(int value, Player player)
         {
             ChangeBalance(-value);
             player.GetComponent<AmountOfMoney>().ChangeBalance(value);
