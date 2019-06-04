@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-    public class Position : Player
+    public class Position : Piece
     {
+        [SerializeField] protected GameObject tileManager;
+        
+        public int CurrentIndex { get; set; }
 
-        private IEnumerator MoveAnim(int spaces)
+        private IEnumerator MoveAnim(int spaces, Player player)
         {
             for (var i = 0; i < spaces; ++i)
             {
@@ -13,22 +16,22 @@ using UnityEngine;
                 this.transform.position = tileManager.GetComponent<GenerateTiles>().tiles[CurrentIndex].tileLocation;
                 yield return new WaitForSeconds(0.75f);
             }
-            GameManager.CheckTileEffect(gameObject);
+            GameManager.CheckTileEffect(player);
         }
 
-        public void MovePlayer(int spaces)
+        public void MovePlayer(int spaces, Player player)
         {
-            StartCoroutine(MoveAnim(spaces));
+            StartCoroutine(MoveAnim(spaces, player));
         }
 
-        public void MoveToTile(int tile, bool doNotPassGo)
+        public void MoveToTile(int tile, bool doNotPassGo, Player player)
         {
             if (CurrentIndex > tile)
                 CurrentIndex = 40 + tile;
             else
                 CurrentIndex = tile;
             CheckGo(doNotPassGo);
-        GameManager.CheckTileEffect(gameObject);
+        GameManager.CheckTileEffect(player);
         }
 
         private void CheckGo(bool doNotPassGo)

@@ -11,12 +11,12 @@ public class Dice : MonoBehaviour
     [SerializeField] private List<Sprite> _dieFaces;
     
 
-    public void Roll()
+    public void Roll(Player player)
     {
-        StartCoroutine(RollAnim());
+        StartCoroutine(RollAnim(player));
     }
 
-    private IEnumerator RollAnim()
+    private IEnumerator RollAnim(Player player)
     {         
         for (int i = 0; i < Random.Range(15, 26); i++)
         {
@@ -28,6 +28,6 @@ public class Dice : MonoBehaviour
         }
 
         _totalValue = _diceOneValue + _diceTwoValue;
-        GameManager.Turn(GameManager.players[GameManager.currentPlayer], _totalValue);
+        GameManager.Turn(player, _totalValue);
     }
 }

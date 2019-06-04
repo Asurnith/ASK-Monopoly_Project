@@ -7,38 +7,18 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {    
     [SerializeField] private GameObject[] inputFields = new GameObject[8];
-    private List<String> names;
+    [SerializeField] private static PlayerManager _playerManager;
+    public String names;
 
-    private int totalPlayers = 2;
+    private int activePlayers = 2;
 
-    public void getPlayerCount(GameObject[] inputFields)
+    public void PlayGame(List<String> names)
     {
-        foreach (var inputField in inputFields)
+        for (int i = 0; i < activePlayers; ++i)
         {
-            if (inputField.GetComponent(GameObject.SetActive(true)))
-            {
-                
-                
-            }
+           _playerManager.players[i] = gameObject.AddComponent<Player>(); 
         }
-    }
-
-    public void genNameList(int totalPlayers, String name)
-    {
-
-        for (int i = 0; i < names.Count; ++i)
-        {
-            GameManager.players.Add(new GameObject(name));
-        }
-        
-    }
-
-    public void PlayGame()
-    {
-        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        
-        
     }
     
     public void QuitGame()

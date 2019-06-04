@@ -11,7 +11,7 @@ public class RealEstateBehavior : PropertyBehavior
     
     public int[] rentValues = new int[7];
     
-    public override void TileEffect(GameObject player)
+    public override void TileEffect(Player player)
     {
         
         

@@ -14,6 +14,6 @@ public abstract class Tile : MonoBehaviour
     public String tileName;
     public Vector3 tileLocation;
 
-    public abstract void TileEffect(GameObject player);
+    public abstract void TileEffect(Player player);
 
 }

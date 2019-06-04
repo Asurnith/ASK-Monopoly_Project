@@ -7,7 +7,7 @@ public class UtilityBehavior: PropertyBehavior
 {
     public bool twoUtilities;
     
-    public override void TileEffect(GameObject player)
+    public override void TileEffect(Player player)
     {
         
         

@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 
 
-    public class AmountOfMoney : Player
+    public class AmountOfMoney : Piece
     {
         
+        [SerializeField] public int[] _totalBills;
 
         private readonly int[] _billDenominations = new int[]
         {
@@ -55,6 +56,20 @@
         {
             ChangeBalance(-value);
             player.GetComponent<AmountOfMoney>().ChangeBalance(value);
+        }
+        
+        void Start()
+        {
+            _totalBills = new int[]
+            {
+                2,
+                4,
+                1,
+                1,
+                2,
+                1,
+                5
+            };     
         }
     }
 

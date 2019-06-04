@@ -5,7 +5,7 @@ using UnityEngine;
 public class GoToJailBehavior : Tile
 {
     
-    public override void TileEffect(GameObject player)
+    public override void TileEffect(Player player)
     {
         
         

@@ -1965,7 +1965,6 @@ GameObject:
   - component: {fileID: 305213534}
   - component: {fileID: 305213533}
   - component: {fileID: 305213532}
-  - component: {fileID: 305213535}
   m_Layer: 0
   m_Name: Piece 5
   m_TagString: Untagged
@@ -2000,7 +1999,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87b14da0c2817a4db8fa096ddb44bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalBills: 
   tileManager: {fileID: 2145341342}
 --- !u!114 &305213533
 MonoBehaviour:
@@ -2014,8 +2012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40682ac281e8a77438125647805c6912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalBills: 
-  tileManager: {fileID: 0}
+  propertiesOwned: []
   getOutOfJailCards: 0
 --- !u!114 &305213534
 MonoBehaviour:
@@ -2030,21 +2027,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _totalBills: 
-  tileManager: {fileID: 0}
---- !u!114 &305213535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 305213530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d109f71a82c04d48a6a27ba15f8e67e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _totalBills: 
-  tileManager: {fileID: 0}
 --- !u!4 &360674048 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 84243117096445679, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -3381,6 +3363,171 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &592230463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 592230464}
+  - component: {fileID: 592230467}
+  - component: {fileID: 592230466}
+  - component: {fileID: 592230465}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &592230464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592230463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_Children: []
+  m_Father: {fileID: 594091218}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &592230465
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592230463}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &592230466
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592230463}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &592230467
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592230463}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &594091214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 594091218}
+  - component: {fileID: 594091217}
+  - component: {fileID: 594091216}
+  - component: {fileID: 594091215}
+  m_Layer: 0
+  m_Name: Piece 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &594091215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594091214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b87b14da0c2817a4db8fa096ddb44bb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileManager: {fileID: 2145341342}
+--- !u!114 &594091216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594091214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40682ac281e8a77438125647805c6912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propertiesOwned: []
+  getOutOfJailCards: 0
+--- !u!114 &594091217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594091214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d09f2f45ce7a74293eabd5d046ee01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _totalBills: 
+--- !u!4 &594091218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594091214}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 592230464}
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &610403035 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2553669523630655510, guid: 9fb5855ee26ee2445b52d1ff5e1ceeab,
@@ -4227,7 +4374,6 @@ GameObject:
   - component: {fileID: 757923017}
   - component: {fileID: 757923016}
   - component: {fileID: 757923015}
-  - component: {fileID: 757923018}
   m_Layer: 0
   m_Name: Piece 4
   m_TagString: Untagged
@@ -4262,7 +4408,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87b14da0c2817a4db8fa096ddb44bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalBills: 
   tileManager: {fileID: 2145341342}
 --- !u!114 &757923016
 MonoBehaviour:
@@ -4276,8 +4421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40682ac281e8a77438125647805c6912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalBills: 
-  tileManager: {fileID: 0}
+  propertiesOwned: []
   getOutOfJailCards: 0
 --- !u!114 &757923017
 MonoBehaviour:
@@ -4292,21 +4436,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _totalBills: 
-  tileManager: {fileID: 0}
---- !u!114 &757923018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 757923013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d109f71a82c04d48a6a27ba15f8e67e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _totalBills: 
-  tileManager: {fileID: 0}
 --- !u!1 &759063267
 GameObject:
   m_ObjectHideFlags: 0
@@ -7000,7 +7129,6 @@ GameObject:
   - component: {fileID: 1038499428}
   - component: {fileID: 1038499427}
   - component: {fileID: 1038499426}
-  - component: {fileID: 1038499429}
   m_Layer: 0
   m_Name: Piece 3
   m_TagString: Untagged
@@ -7035,7 +7163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87b14da0c2817a4db8fa096ddb44bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalBills: 
   tileManager: {fileID: 2145341342}
 --- !u!114 &1038499427
 MonoBehaviour:
@@ -7049,8 +7176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40682ac281e8a77438125647805c6912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalBills: 
-  tileManager: {fileID: 0}
+  propertiesOwned: []
   getOutOfJailCards: 0
 --- !u!114 &1038499428
 MonoBehaviour:
@@ -7065,21 +7191,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _totalBills: 
-  tileManager: {fileID: 0}
---- !u!114 &1038499429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1038499424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d109f71a82c04d48a6a27ba15f8e67e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _totalBills: 
-  tileManager: {fileID: 0}
 --- !u!1 &1043349191
 GameObject:
   m_ObjectHideFlags: 0
@@ -7361,6 +7472,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1107238936}
+  - component: {fileID: 1107238937}
   m_Layer: 0
   m_Name: Player Manager
   m_TagString: Untagged
@@ -7390,6 +7502,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1107238937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107238935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ab10b5c24abf04794274f384b70205, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  players:
+  - {fileID: 1573561210}
+  - {fileID: 1312731650}
+  - {fileID: 1038499428}
+  - {fileID: 757923017}
+  - {fileID: 305213534}
+  - {fileID: 1835026326}
+  - {fileID: 2131326253}
+  - {fileID: 1772081599}
 --- !u!1 &1118586906 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -8453,7 +8586,6 @@ GameObject:
   - component: {fileID: 1312731650}
   - component: {fileID: 1312731649}
   - component: {fileID: 1312731648}
-  - component: {fileID: 1312731651}
   m_Layer: 0
   m_Name: Piece 2
   m_TagString: Untagged
@@ -8488,7 +8620,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87b14da0c2817a4db8fa096ddb44bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalBills: 
   tileManager: {fileID: 2145341342}
 --- !u!114 &1312731649
 MonoBehaviour:
@@ -8502,8 +8633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40682ac281e8a77438125647805c6912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalBills: 
-  tileManager: {fileID: 0}
+  propertiesOwned: []
   getOutOfJailCards: 0
 --- !u!114 &1312731650
 MonoBehaviour:
@@ -8518,21 +8648,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _totalBills: 
-  tileManager: {fileID: 0}
---- !u!114 &1312731651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312731646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d109f71a82c04d48a6a27ba15f8e67e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _totalBills: 
-  tileManager: {fileID: 0}
 --- !u!1001 &1327756502
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10477,7 +10592,6 @@ GameObject:
   - component: {fileID: 1573561210}
   - component: {fileID: 1573561209}
   - component: {fileID: 1573561208}
-  - component: {fileID: 1573561211}
   m_Layer: 0
   m_Name: Piece 1
   m_TagString: Untagged
@@ -10512,7 +10626,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87b14da0c2817a4db8fa096ddb44bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalBills: 
   tileManager: {fileID: 2145341342}
 --- !u!114 &1573561209
 MonoBehaviour:
@@ -10526,8 +10639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40682ac281e8a77438125647805c6912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalBills: 
-  tileManager: {fileID: 0}
+  propertiesOwned: []
   getOutOfJailCards: 0
 --- !u!114 &1573561210
 MonoBehaviour:
@@ -10542,21 +10654,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _totalBills: 
-  tileManager: {fileID: 0}
---- !u!114 &1573561211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1573561206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d109f71a82c04d48a6a27ba15f8e67e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _totalBills: 
-  tileManager: {fileID: 0}
 --- !u!1001 &1575727777
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11395,7 +11492,6 @@ GameObject:
   - component: {fileID: 1772081599}
   - component: {fileID: 1772081598}
   - component: {fileID: 1772081597}
-  - component: {fileID: 1772081600}
   m_Layer: 0
   m_Name: Piece 8
   m_TagString: Untagged
@@ -11430,7 +11526,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87b14da0c2817a4db8fa096ddb44bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalBills: 
   tileManager: {fileID: 2145341342}
 --- !u!114 &1772081598
 MonoBehaviour:
@@ -11444,8 +11539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40682ac281e8a77438125647805c6912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalBills: 
-  tileManager: {fileID: 0}
+  propertiesOwned: []
   getOutOfJailCards: 0
 --- !u!114 &1772081599
 MonoBehaviour:
@@ -11460,21 +11554,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _totalBills: 
-  tileManager: {fileID: 0}
---- !u!114 &1772081600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772081595}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d109f71a82c04d48a6a27ba15f8e67e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _totalBills: 
-  tileManager: {fileID: 0}
 --- !u!1 &1774723904 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8132538847581373082, guid: ea54c16e04cfedb4993fc4ac0cf8a48a,
@@ -12006,7 +12085,6 @@ GameObject:
   - component: {fileID: 1835026326}
   - component: {fileID: 1835026325}
   - component: {fileID: 1835026324}
-  - component: {fileID: 1835026327}
   m_Layer: 0
   m_Name: Piece 6
   m_TagString: Untagged
@@ -12041,7 +12119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87b14da0c2817a4db8fa096ddb44bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalBills: 
   tileManager: {fileID: 2145341342}
 --- !u!114 &1835026325
 MonoBehaviour:
@@ -12055,8 +12132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40682ac281e8a77438125647805c6912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalBills: 
-  tileManager: {fileID: 0}
+  propertiesOwned: []
   getOutOfJailCards: 0
 --- !u!114 &1835026326
 MonoBehaviour:
@@ -12071,21 +12147,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _totalBills: 
-  tileManager: {fileID: 0}
---- !u!114 &1835026327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835026322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d109f71a82c04d48a6a27ba15f8e67e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _totalBills: 
-  tileManager: {fileID: 0}
 --- !u!1001 &1839243948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13636,7 +13697,6 @@ GameObject:
   - component: {fileID: 2131326253}
   - component: {fileID: 2131326252}
   - component: {fileID: 2131326251}
-  - component: {fileID: 2131326254}
   m_Layer: 0
   m_Name: Piece 7
   m_TagString: Untagged
@@ -13671,7 +13731,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87b14da0c2817a4db8fa096ddb44bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalBills: 
   tileManager: {fileID: 2145341342}
 --- !u!114 &2131326252
 MonoBehaviour:
@@ -13685,8 +13744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40682ac281e8a77438125647805c6912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalBills: 
-  tileManager: {fileID: 0}
+  propertiesOwned: []
   getOutOfJailCards: 0
 --- !u!114 &2131326253
 MonoBehaviour:
@@ -13701,21 +13759,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _totalBills: 
-  tileManager: {fileID: 0}
---- !u!114 &2131326254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131326249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d109f71a82c04d48a6a27ba15f8e67e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _totalBills: 
-  tileManager: {fileID: 0}
 --- !u!1 &2133272656
 GameObject:
   m_ObjectHideFlags: 0

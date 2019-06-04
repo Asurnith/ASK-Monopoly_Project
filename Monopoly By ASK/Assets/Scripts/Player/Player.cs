@@ -1,30 +1,15 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : Piece
 {
+    public new String name;
 
-    [SerializeField] protected int[] _totalBills;
-    
-    [SerializeField] protected GameObject tileManager;
-
-    public int CurrentIndex { get; set; }
-
-    protected List<Tile> propertiesOwned = new List<Tile>();
-    
-  void Start()
+    public Player(String name)
     {
-        _totalBills = new int[]
-        {
-            2,
-            4,
-            1,
-            1,
-            2,
-            1,
-            5
-        };     
+        this.name = name;
     }
-
+    
 }

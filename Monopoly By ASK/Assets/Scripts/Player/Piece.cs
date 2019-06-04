@@ -2,18 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TaxBehavior : Tile
+public class Piece : MonoBehaviour
 {
-
-    public int cost;
-
-    public override void TileEffect(Player player)
-    {
-        
-        
-    }
-    
-    
     // Start is called before the first frame update
     void Start()
     {

@@ -3,7 +3,8 @@ using UnityEngine.Serialization;
 
 public class CameraFollow : MonoBehaviour {
 
-  public Transform Player;
+  [SerializeField] private Transform Player;
+  [SerializeField] private GameObject PlayerManager;
 
   public float smoothSpeed = 0.125f;
   public Vector3 offset;
@@ -18,9 +19,9 @@ public class CameraFollow : MonoBehaviour {
     transform.LookAt(Player);
   }
 
-  void FixedUpdate ()
+  void FixedUpdate (Player currentPlayer)
   {
-   moveCamera(Player);
+    moveCamera(currentPlayer);
   }
 
 }
